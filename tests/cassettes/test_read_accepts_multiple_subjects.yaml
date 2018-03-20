@@ -1,0 +1,927 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://connect.biorxiv.org/biorxiv_xml.php?subject=genomics+bioinformatics
+  response:
+    body: {string: "<rdf:RDF xmlns:admin=\"http://webns.net/mvcb/\" xmlns=\"http://purl.org/rss/1.0/\"\
+        \ xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:prism=\"\
+        http://purl.org/rss/1.0/modules/prism/\" xmlns:taxo=\"http://purl.org/rss/1.0/modules/taxonomy/\"\
+        \ xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\
+        \ xmlns:syn=\"http://purl.org/rss/1.0/modules/syndication/\">\r\n<channel\
+        \ rdf:about=\"http://biorxiv.org\">\r\n<admin:errorReportsTo rdf:resource=\"\
+        mailto:biorxiv@cshlpress.edu\"/>\r\n<title>bioRxiv Subject Collection: Genomics\
+        \ Bioinformatics</title>\r\n<link>http://biorxiv.org</link>\r\n<description>\r\
+        \nThis feed contains articles for bioRxiv Subject Collection \"Genomics Bioinformatics\"\
+        \r\n</description>\r\n\r\n \r\n\r\n\r\n\r\n<items>\r\n<rdf:Seq>\r\n<rdf:li\
+        \ rdf:resource=\"http://biorxiv.org/cgi/content/short/286740v1?rss=1\"/>\n\
+        <rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287987v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287706v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287607v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/288035v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287524v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287946v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/288001v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286419v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287532v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286815v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287177v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287201v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287086v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286906v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287029v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/285437v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286096v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286674v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286260v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286252v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286211v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286104v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286641v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286351v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286302v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/285734v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286054v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/285692v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/285783v1?rss=1\"\
+        />\n</rdf:Seq>\r\n</items>\r\n<prism:eIssn/>\r\n<prism:publicationName>bioRxiv</prism:publicationName>\r\
+        \n<prism:issn/>\r\n\r\n<image rdf:resource=\"\"/>\r\n</channel>\r\n<image\
+        \ rdf:about=\"\">\r\n<title>bioRxiv</title>\r\n<url/>\r\n<link>http://biorxiv.org</link>\r\
+        \n</image>\r\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286740v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSISS-Geo: Leveraging Citizen Science to Monitor Wildlife\
+        \ Health Risks in Brazil \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286740v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe well-being of wildlife health involves\
+        \ many challenges, such as monitoring the movement of pathogens; expanding\
+        \ health surveillance beyond humans; collecting data and extracting information\
+        \ to identify and predict risks; integrating specialists from different areas\
+        \ to handle data, species and distinct social and environmental contexts;\
+        \ and, the commitment to bringing relevant information to society. In Brazil,\
+        \ there is still the difficulty of building a mechanism that is not impaired\
+        \ by its large territorial extension and its poorly integrated sectoral policies.\
+        \ The Brazilian Wildlife Health Information System, SISS-Geo, is a platform\
+        \ for collaborative monitoring that intends to overcome the challenges in\
+        \ wildlife health. It aims integration and participation of various segments\
+        \ of society, encompassing: the registration of occurrences by citizen scientists;\
+        \ the reliable diagnosis of pathogens from the laboratory and expert networks;\
+        \ and computational and mathematical challenges in analytical and predictive\
+        \ systems, knowledge extraction, data integration and visualization, and geographic\
+        \ information systems. It has been successfully applied to support decision-making\
+        \ on recent wildlife health events, such as a Yellow Fever epizooty.\n]]></description>\n\
+        <dc:creator>Chame, M.</dc:creator>\n<dc:creator>Barbosa, H. J. C.</dc:creator>\n\
+        <dc:creator>Gadelha, L. M. R.</dc:creator>\n<dc:creator>Augusto, D. A.</dc:creator>\n\
+        <dc:creator>Krempser, E.</dc:creator>\n<dc:creator>Abdalla, L.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286740</dc:identifier>\n\
+        <dc:title><![CDATA[SISS-Geo: Leveraging Citizen Science to Monitor Wildlife\
+        \ Health Risks in Brazil]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287987v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA polygenic p factor for major psychiatric disorders\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287987v1?rss=1\n\
+        </link>\n<description><![CDATA[\nIt has recently been proposed that a single\
+        \ dimension, called the p factor, can capture a person's liability to mental\
+        \ disorder. Relevant to the p hypothesis, recent genetic research has found\
+        \ surprisingly high genetic correlations between pairs of psychiatric disorders.\
+        \ Here, for the first time we compare genetic correlations from different\
+        \ methods and examine their support for a genetic p factor. We tested the\
+        \ hypothesis of a genetic p factor by using principal component analysis on\
+        \ matrices of genetic correlations between major psychiatric disorders estimated\
+        \ by three methods - family study, Genome-wide Complex Trait Analysis, and\
+        \ Linkage-Disequilibrium Score Regression - and on a matrix of polygenic score\
+        \ correlations constructed for each individual in a UK-representative sample\
+        \ of 7,026 unrelated individuals. All disorders loaded on a first unrotated\
+        \ principal component, which accounted for 57%, 43%, 34% and 19% of the variance\
+        \ respectively for each method. Our results showed that all four methods provided\
+        \ strong support for a genetic p factor that represents the pinnacle of the\
+        \ hierarchical genetic architecture of psychopathology.\n]]></description>\n\
+        <dc:creator>Selzam, S.</dc:creator>\n<dc:creator>Coleman, J. R. I.</dc:creator>\n\
+        <dc:creator>Moffitt, T. E.</dc:creator>\n<dc:creator>Caspi, A.</dc:creator>\n\
+        <dc:creator>Plomin, R.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287987</dc:identifier>\n\
+        <dc:title><![CDATA[A polygenic p factor for major psychiatric disorders]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287706v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nAn unexpected contribution of lincRNA splicing to enhancer\
+        \ function. \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287706v1?rss=1\n\
+        </link>\n<description><![CDATA[\nTranscription is common at active mammalian\
+        \ enhancers sometimes giving rise to stable and unidirectionally transcribed\
+        \ enhancer-associated long intergenic noncoding RNAs (elincRNAs). ElincRNA\
+        \ expression is associated with changes in neighboring gene product abundance\
+        \ and local chromosome topology, suggesting that transcription at these loci\
+        \ contributes to gene expression regulation in cis. Despite the lack of evidence\
+        \ supporting sequence-dependent functions for most elincRNAs, splicing of\
+        \ these transcripts is unexpectedly common. Whether elincRNA splicing is a\
+        \ mere consequence of their cognate enhancer activity or if it directly impacts\
+        \ enhancer-associated cis-regulation remains unanswered. Here we show that\
+        \ elincRNAs are efficiently and rapidly spliced and that their processing\
+        \ rate is strongly associated with their cognate enhancer activity. This association\
+        \ is supported by: their enrichment in enhancer-specific chromatin signatures;\
+        \ elevated binding of co-transcriptional regulators, including CBP and p300;\
+        \ increased local intra-chromosomal DNA contacts; and strengthened cis-regulation\
+        \ on target gene expression. Using nucleotide polymorphisms at human elincRNA\
+        \ splice sites, we found that elincRNA splicing enhances their transcription\
+        \ and directly impacts cis-regulatory function of their cognate enhancers.\
+        \ Importantly, up to 90% of human elincRNAs have nucleotide variants that\
+        \ are associated with both their splicing and the expression levels of their\
+        \ proximal genes. Our results highlight the unexpected contribution of elincRNA\
+        \ splicing to enhancer function.\n]]></description>\n<dc:creator>Tan, J. Y.</dc:creator>\n\
+        <dc:creator>Biasini, A.</dc:creator>\n<dc:creator>Young, R. S.</dc:creator>\n\
+        <dc:creator>Marques, A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287706</dc:identifier>\n\
+        <dc:title><![CDATA[An unexpected contribution of lincRNA splicing to enhancer\
+        \ function.]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-23</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287607v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nPromoterPredict: sequence-based modelling of Escherichia\
+        \ coli {sigma}70 promoter strength yields logarithmic dependence between promoter\
+        \ strength and sequence \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287607v1?rss=1\n\
+        </link>\n<description><![CDATA[\nWe present PromoterPredict, a dynamic multiple\
+        \ regression approach to predict the strength of Escherichia coli promoters\
+        \ binding the {sigma}70 factor of RNA polymerase. {sigma}70 promoters are\
+        \ ubiquitously used in recombinant DNA technology, but characterizing their\
+        \ strength is demanding in terms of both time and money. Using a well-characterized\
+        \ set of promoters, we trained a multivariate linear regression model and\
+        \ found that the log of the promoter strength is significantly linearly associated\
+        \ with a weighted sum of the -10 and -35 sequence profile scores. It was found\
+        \ that the two regions contributed almost equally to the promoter strength.\
+        \ PromoterPredict accepts -10 and -35 hexamer sequences and returns the predicted\
+        \ promoter strength. It is capable of dynamic learning from user-supplied\
+        \ data to refine the model construction and yield more confident estimates\
+        \ of promoter strength.\n]]></description>\n<dc:creator>Bharanikumar, R.</dc:creator>\n\
+        <dc:creator>R. Premkumar, K. A.</dc:creator>\n<dc:creator>Palaniappan, A.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287607</dc:identifier>\n\
+        <dc:title><![CDATA[PromoterPredict: sequence-based modelling of Escherichia\
+        \ coli {sigma}70 promoter strength yields logarithmic dependence between promoter\
+        \ strength and sequence]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/288035v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nLipid utilization in skeletal muscle cells is modulated\
+        \ in vitro and in vivo by specific miRNAs \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/288035v1?rss=1\n\
+        </link>\n<description><![CDATA[\nSkeletal muscle is composed by different\
+        \ myofiber types that can preferentially use glycolysis or lipids for ATP\
+        \ production. How fuel preference is specified in these post-mitotic cells\
+        \ is unknown. Here we show that miRNAs are important players in defining the\
+        \ myofiber metabolic profile. mRNA and miRNA signatures of all myofiber types\
+        \ obtained at single cell level unveiled fiber-specific regulatory networks\
+        \ and identified two master miRNAs that coordinately control myofiber fuel\
+        \ preference and mitochondrial morphology. Our work provides a complete and\
+        \ integrated myofiber type-specific catalogue of genes and miRNAs expressed\
+        \ and establishes miR-27a-3p and miR-142-3p as key regulators of lipid utilization\
+        \ in skeletal muscle.\n]]></description>\n<dc:creator>Chemello, F.</dc:creator>\n\
+        <dc:creator>Grespi, F.</dc:creator>\n<dc:creator>Zulian, A.</dc:creator>\n\
+        <dc:creator>Cancellara, P.</dc:creator>\n<dc:creator>Hebert-Chatelain, E.</dc:creator>\n\
+        <dc:creator>Martini, P.</dc:creator>\n<dc:creator>Bean, C.</dc:creator>\n\
+        <dc:creator>Alessio, E.</dc:creator>\n<dc:creator>Ferrazza, R.</dc:creator>\n\
+        <dc:creator>Laveder, P.</dc:creator>\n<dc:creator>Guella, G.</dc:creator>\n\
+        <dc:creator>Reggiani, C.</dc:creator>\n<dc:creator>Romualdi, C.</dc:creator>\n\
+        <dc:creator>Bernardi, P.</dc:creator>\n<dc:creator>Scorrano, L.</dc:creator>\n\
+        <dc:creator>Cagnin, S.</dc:creator>\n<dc:creator>Lanfranchi, G.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/288035</dc:identifier>\n\
+        <dc:title><![CDATA[Lipid utilization in skeletal muscle cells is modulated\
+        \ in vitro and in vivo by specific miRNAs]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287524v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nLdb1 mediates trans enhancement in mammals \n]]>\n\
+        </title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287524v1?rss=1\n</link>\n\
+        <description><![CDATA[\nSingular olfactory receptor (OR) gene expression coincides\
+        \ with the formation of a multi-chromosomal enhancer hub that associates with\
+        \ the only transcribed OR allele in each cell. This hub consists of converging\
+        \ transcriptional enhancers, or Greek Islands, defined by stereotypic binding\
+        \ of Lhx2 and Ebf on a shared, composite DNA motif. How this multi-chromosomal\
+        \ hub, or any other genomic compartment, assembles is unknown, and so is the\
+        \ significance of compartmentalization in transcription. Here, we report that\
+        \ LIM domain binding protein 1 (Ldb1), which is recruited by Lhx2 and Ebf\
+        \ to Greek Islands, promotes robust and specific trans interactions between\
+        \ these enhancers. In addition to disrupting Greek Island hubs, Ldb1 deletion\
+        \ also causes significant downregulation of OR transcription. Thus, our data\
+        \ provide insight to the formation of genomic compartments, confirm the essential\
+        \ role of interchromosomal interactions in OR gene choice, and establish trans\
+        \ enhancement as a mechanism for mammalian gene activation.\n]]></description>\n\
+        <dc:creator>Monahan, K.</dc:creator>\n<dc:creator>Horta, A.</dc:creator>\n\
+        <dc:creator>Mumbay-Wafula, A.</dc:creator>\n<dc:creator>Li, L.</dc:creator>\n\
+        <dc:creator>Zhao, Y.</dc:creator>\n<dc:creator>Love, P.</dc:creator>\n<dc:creator>Lomvardas,\
+        \ S.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287524</dc:identifier>\n\
+        <dc:title><![CDATA[Ldb1 mediates trans enhancement in mammals]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287946v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nTranscriptional read-through of the long non-coding\
+        \ RNA SVALKA governs plant cold acclimation \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287946v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMost DNA in the genomes of higher organisms\
+        \ does not encode proteins, but is transcribed by RNA polymerase II (RNAPII)\
+        \ into long non-coding RNA (lncRNA). The biological significance of most lncRNA\
+        \ is largely unclear. Here, we identify a lncRNA (SVALKA) in a cold-sensitive\
+        \ region of the Arabidopsis genome. Mutations in SVALKA affect the timing\
+        \ of maximal CBF1 expression and freezing tolerance. RNAPII read-through transcription\
+        \ of SVALKA results in a cryptic lncRNA overlapping CBF1 on the antisense\
+        \ strand, termed asCBF1. asCBF1 transcription is anti-correlated with CBF1\
+        \ expression. Our molecular dissection reveals that CBF1 is suppressed by\
+        \ RNAPII collision stemming from the SVALKA-asCBF1 lncRNA cascade. The SVK-asCBF1\
+        \ cascade provides a mechanism to tightly control CBF1 expression and timing\
+        \ that could be exploited to maximize freezing tolerance with mitigated fitness\
+        \ costs. Inversion of the transcriptional direction of a lncRNA cascade relative\
+        \ to the genes in a co-regulated cluster provides an elegant inbuilt negative\
+        \ feedback for cluster expression. Our results provide a compelling example\
+        \ of local gene regulation by lncRNA transcription having a profound impact\
+        \ on the ability of plants to appropriately acclimate to suboptimal environmental\
+        \ conditions.\n]]></description>\n<dc:creator>Kindgren, P.</dc:creator>\n\
+        <dc:creator>Ard, R.</dc:creator>\n<dc:creator>Ivanov, M.</dc:creator>\n<dc:creator>Marquardt,\
+        \ S.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287946</dc:identifier>\n\
+        <dc:title><![CDATA[Transcriptional read-through of the long non-coding RNA\
+        \ SVALKA governs plant cold acclimation]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/288001v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nTETyper: a bioinformatic pipeline for classifying variation\
+        \ and genetic contexts of transposable elements from short-read whole-genome\
+        \ sequencing data \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/288001v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMuch of the worldwide dissemination of antibiotic\
+        \ resistance has been driven by resistance gene associations with mobile genetic\
+        \ elements (MGEs), such as plasmids and transposons. Although increasing,\
+        \ our understanding of resistance spread remains relatively limited, as methods\
+        \ for tracking mobile resistance genes through multiple species, strains and\
+        \ plasmids are lacking. We have developed a bioinformatic pipeline for tracking\
+        \ variation within, and mobility of, specific transposable elements (TEs),\
+        \ such as transposons carrying antibiotic resistance genes. TETyper takes\
+        \ short-read whole-genome sequencing data as input and identifies single-nucleotide\
+        \ mutations and deletions within the TE of interest, to enable tracking of\
+        \ specific sequence variants, as well as the surrounding genetic context(s),\
+        \ to enable identification of transposition events. To investigate global\
+        \ dissemination of Klebsiella pneumoniae carbapenemase (KPC) and its associated\
+        \ transposon Tn4401, we applied TETyper to a collection of >3000 publicly\
+        \ available Illumina datasets containing blaKPC. This revealed surprising\
+        \ diversity, with >200 distinct flanking genetic contexts for Tn4401, indicating\
+        \ high levels of transposition. Integration of sample metadata revealed insights\
+        \ into associations between geographic locations, host species, Tn4401 sequence\
+        \ variants and flanking genetic contexts. To demonstrate the ability of TETyper\
+        \ to cope with high copy number TEs and to track specific short-term evolutionary\
+        \ changes, we also applied it to the insertion sequence IS26 within a defined\
+        \ K. pneumoniae outbreak. TETyper is implemented in python and is freely available\
+        \ at https://github.com/aesheppard/TETyper.\n]]></description>\n<dc:creator>Sheppard,\
+        \ A. E.</dc:creator>\n<dc:creator>Stoesser, N.</dc:creator>\n<dc:creator>German-Mesner,\
+        \ I.</dc:creator>\n<dc:creator>Vegesana, K.</dc:creator>\n<dc:creator>Walker,\
+        \ A. S.</dc:creator>\n<dc:creator>Crook, D. W.</dc:creator>\n<dc:creator>Mathers,\
+        \ A. J.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/288001</dc:identifier>\n\
+        <dc:title><![CDATA[TETyper: a bioinformatic pipeline for classifying variation\
+        \ and genetic contexts of transposable elements from short-read whole-genome\
+        \ sequencing data]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286419v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA Metagenomic Meta-Analysis Reveals Functional Signatures\
+        \ of Health and Disease in the Human Gut Microbiome \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/286419v1?rss=1\n</link>\n<description><![CDATA[\n\
+        While recent research indicates that human health depends, in part, upon the\
+        \ symbiotic relationship between gut microbes and their host, the specific\
+        \ interactions between host and microbe that define health are poorly resolved.\
+        \ Metagenomic clinical studies clarify this definition by revealing gut microbial\
+        \ taxa and functions that stratify healthy and diseased individuals. However,\
+        \ the typical single-disease focus of microbiome studies limits insight into\
+        \ which microbiome features robustly associate with health, indicate general\
+        \ deviations from health, or predict specific diseases. Additionally, the\
+        \ focus on taxonomy may limit our understanding of how the microbiome relates\
+        \ to health given observations that different taxonomic members can fulfill\
+        \ similar functional roles. To improve our understanding of the association\
+        \ between the gut microbiome and health, we integrated about 2,000 gut metagenomes\
+        \ obtained from eight clinical studies in a statistical meta-analysis. We\
+        \ identify characteristics of the gut microbiome that associate generally\
+        \ with disease, including functional alpha-diversity, beta-diversity, and\
+        \ beta-dispersion. Moreover, we resolve microbiome modules that stratify diseased\
+        \ individuals from controls in a manner independent of study-specific effects.\
+        \ Many of the differentially abundant functions overlap multiple diseases\
+        \ suggesting a role in host health, while others are specific to a single\
+        \ disease and may associate with disease-specific etiologies. Our results\
+        \ clarify potential microbiome-mediated mechanisms of disease and reveal features\
+        \ of the microbiome that may be useful for the development of microbiome-based\
+        \ diagnostics. Ultimately, our study clarifies the definition of a healthy\
+        \ microbiome and how perturbations to it associate with disease.\n]]></description>\n\
+        <dc:creator>Armour, C. R.</dc:creator>\n<dc:creator>Nayfach, S.</dc:creator>\n\
+        <dc:creator>Pollard, K.</dc:creator>\n<dc:creator>Sharpton, T. J.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286419</dc:identifier>\n\
+        <dc:title><![CDATA[A Metagenomic Meta-Analysis Reveals Functional Signatures\
+        \ of Health and Disease in the Human Gut Microbiome]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287532v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nCell type-specific interchromosomal interactions as\
+        \ a mechanism for transcriptional diversity \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287532v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe eukaryotic genome is partitioned into\
+        \ topologically associated domains (TADs) that assemble into compartments\
+        \ of shared chromatin valance. This architecture is influenced by the physical\
+        \ constraints imposed by the DNA polymer, which restricts DNA interactions\
+        \ predominantly to genomic segments from the same chromosome. Here, we report\
+        \ a dramatic divergence from this pattern of nuclear organization that occurs\
+        \ during the differentiation and specification of mouse olfactory sensory\
+        \ neurons (OSNs). In situ HiC on FAC-sorted OSNs shows that olfactory receptor\
+        \ (OR) genes from numerous chromosomes make frequent, extensive, and highly\
+        \ specific interchromosomal contacts that strengthen with differentiation.\
+        \ Moreover, in terminally differentiated OSNs, >30 intergenic enhancers generate\
+        \ a multi-chromosomal hub that associates only with the single active OR from\
+        \ a pool of ~1400 genes. Our data reveal that interchromosomal interactions\
+        \ can form with remarkable stereotypy between like neurons, generating a regulatory\
+        \ landscape for stochastic, monogenic, and monoallelic gene expression.\n\
+        ]]></description>\n<dc:creator>Horta, A.</dc:creator>\n<dc:creator>Monahan,\
+        \ K.</dc:creator>\n<dc:creator>Bashkirova, L.</dc:creator>\n<dc:creator>Lomvardas,\
+        \ S.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287532</dc:identifier>\n\
+        <dc:title><![CDATA[Cell type-specific interchromosomal interactions as a mechanism\
+        \ for transcriptional diversity]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286815v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nLost in translation: egg transcriptome reveals molecular\
+        \ signature to predict developmental success and novel maternal-effect genes\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286815v1?rss=1\n\
+        </link>\n<description><![CDATA[\nGood quality or developmentally competent\
+        \ eggs result in high survival of progeny. Previous research has shed light\
+        \ on factors that determine egg quality, however, large gaps remain. Initial\
+        \ development of the embryo relies on maternally-inherited molecules, such\
+        \ as transcripts, deposited in the egg, thus, they would likely reflect egg\
+        \ quality. We performed transcriptome analysis on zebrafish fertilized eggs\
+        \ of different quality from unrelated, wildtype couples to obtain a global\
+        \ portrait of the egg transcriptome to determine its association with developmental\
+        \ competence and to identify new candidate maternal-effect genes. Fifteen\
+        \ of the most differentially expressed genes (DEGs) were validated by quantitative\
+        \ real-time PCR. Gene ontology analysis showed that enriched terms included\
+        \ ribosomes and translation. In addition, statistical modeling using partial\
+        \ least squares regression and genetics algorithm also demonstrated that gene\
+        \ signatures from the transcriptomic data can be used to predict reproductive\
+        \ success. Among the validated DEGs, otulina and slc29a1a were found to be\
+        \ increased in good quality eggs and to be predominantly localized in the\
+        \ ovaries. CRISPR/Cas9 knockout mutants of each gene revealed remarkable subfertility\
+        \ whereby the majority of their embryos were unfertilizable. The Wnt pathway\
+        \ appeared to be dysregulated in the otulina knockout-derived eggs. Our novel\
+        \ findings suggested that even in varying quality of eggs due to heterogeneous\
+        \ causes from unrelated wildtype couples, gene signatures exist in the egg\
+        \ transcriptome, which can be used to predict developmental competence. Further,\
+        \ transcriptomic profiling revealed two new potential maternal-effect genes\
+        \ that have essential roles in vertebrate reproduction.\n]]></description>\n\
+        <dc:creator>Cheung, C. T.</dc:creator>\n<dc:creator>Nguyen, T.</dc:creator>\n\
+        <dc:creator>Le Cam, A.</dc:creator>\n<dc:creator>Patinote, A.</dc:creator>\n\
+        <dc:creator>Journot, L.</dc:creator>\n<dc:creator>Reynes, C.</dc:creator>\n\
+        <dc:creator>Bobe, J.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286815</dc:identifier>\n\
+        <dc:title><![CDATA[Lost in translation: egg transcriptome reveals molecular\
+        \ signature to predict developmental success and novel maternal-effect genes]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287177v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nFull-length de novo viral quasispecies assembly through\
+        \ variation graph construction \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287177v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMotivation: Viruses populate their hosts\
+        \ as a viral quasispecies: a collection of genetically related mutant strains.\
+        \ Viral quasispecies assembly refers to reconstructing the strain-specific\
+        \ haplotypes from read data, and predicting their relative abundances within\
+        \ the mix of strains, an important step for various treatment-related reasons.\
+        \ Reference-genome-independent (\"de novo\") approaches have yielded benefits\
+        \ over reference-guided approaches, because reference-induced biases can become\
+        \ overwhelming when dealing with divergent strains. While being very accurate,\
+        \ extant de novo methods only yield rather short contigs. It remains to reconstruct\
+        \ full-length haplotypes together with their abundances from such contigs.\
+        \ Method: We first construct a variation graph, a recently popular, suitable\
+        \ structure for arranging and integrating several related genomes, from the\
+        \ short input contigs, without making use of a reference genome. To obtain\
+        \ paths through the variation graph that reflect the original haplotypes,\
+        \ we solve a minimization problem that yields a selection of maximal-length\
+        \ paths that is optimal in terms of being compatible with the read coverages\
+        \ computed for the nodes of the variation graph. We output the resulting selection\
+        \ of maximal length paths as the haplotypes, together with their abundances.\
+        \ Results: Benchmarking experiments on challenging simulated data sets show\
+        \ significant improvements in assembly contiguity compared to the input contigs,\
+        \ while preserving low error rates. As a consequence, our method outperforms\
+        \ all state-of-the-art viral quasispecies assemblers that aim at the construction\
+        \ of full-length haplotypes, in terms of various relevant assembly measures.\
+        \ Our tool, Virus-VG, is publicly available at https://bitbucket.org/jbaaijens/virus-vg.\n\
+        ]]></description>\n<dc:creator>Baaijens, J.</dc:creator>\n<dc:creator>van\
+        \ der Roest, B.</dc:creator>\n<dc:creator>Koester, J.</dc:creator>\n<dc:creator>Stougie,\
+        \ L.</dc:creator>\n<dc:creator>Schoenhuth, A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287177</dc:identifier>\n<dc:title><![CDATA[Full-length\
+        \ de novo viral quasispecies assembly through variation graph construction]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287201v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nIteratively Improving Hi-C Experiments One Step at\
+        \ a Time \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287201v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe 3D organization of eukaryotic chromosomes\
+        \ affects key processes such as gene expression, DNA replication, cell division,\
+        \ and response to DNA damage. The genome-wide chromosome conformation capture\
+        \ (Hi-C) approach can characterize the landscape of 3D genome organization\
+        \ by measuring interaction frequencies between all genomic regions. Hi-C protocol\
+        \ improvements and rapid advances in DNA sequencing power have made Hi-C useful\
+        \ to diverse biological systems, not only to elucidate the role of 3D genome\
+        \ structure in proper cellular function, but also to characterize genomic\
+        \ rearrangements, assemble new genomes, and consider chromatin interactions\
+        \ as potential biomarkers for diseases. Yet, the Hi-C protocol is still complex\
+        \ and subject to variations at numerous steps that can affect the resulting\
+        \ data. Thus, there is still a need for better understanding and control of\
+        \ factors that contribute to Hi-C experiment success and data quality. Here,\
+        \ we evaluate recently proposed Hi-C protocol modifications as well as often\
+        \ overlooked variables in sample preparation and examine their effects on\
+        \ Hi-C data quality. We examine artifacts that can occur during Hi-C library\
+        \ preparation, including microhomology-based artificial template copying and\
+        \ chimera formation that can add noise to the downstream data. Exploring the\
+        \ mechanisms underlying Hi-C artifacts pinpoints steps that should be further\
+        \ optimized in the future. To improve the utility of Hi-C in characterizing\
+        \ the 3D genome of specialized populations of cells or small samples of primary\
+        \ tissue, we identify steps prone to DNA loss which should be optimized to\
+        \ adapt Hi-C to lower cell numbers.\n]]></description>\n<dc:creator>Golloshi,\
+        \ R.</dc:creator>\n<dc:creator>Sanders, J. T.</dc:creator>\n<dc:creator>McCord,\
+        \ R. P.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/287201</dc:identifier>\n\
+        <dc:title><![CDATA[Iteratively Improving Hi-C Experiments One Step at a Time]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287086v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nComparative Genomics and Genome Evolution in Birds-of-paradise\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287086v1?rss=1\n\
+        </link>\n<description><![CDATA[\nBackground The diverse array of phenotypes\
+        \ and lekking behaviors in birds-of-paradise have long excited scientists\
+        \ and laymen alike. Remarkably, almost nothing is known about the genomics\
+        \ underlying this iconic radiation. Currently, there are 41 recognized species\
+        \ of birds-of-paradise, most of which live on the islands of New Guinea. In\
+        \ this study we sequenced genomes of representatives from all five major clades\
+        \ recognized within the birds-of-paradise family (Paradisaeidae). Our aim\
+        \ was to characterize genomic changes that may have been important for the\
+        \ evolution of the groups extensive phenotypic diversity. Results We sequenced\
+        \ three de novo genomes and re-sequenced two additional genomes representing\
+        \ all major clades within the birds-of-paradise. We found genes important\
+        \ for coloration, morphology and feather development to be under positive\
+        \ selection. GO enrichment of positively selected genes on the branch leading\
+        \ to the birds-of-paradise shows an enrichment for collagen, glycogen synthesis\
+        \ and regulation, eye development and other categories. In the core birds-of-paradise,\
+        \ we found GO categories for startle response (response to predators) and\
+        \ olfactory receptor activity to be enriched among the gene families expanding\
+        \ significantly faster compared to the other birds in our study. Furthermore,\
+        \ we found novel families ofretrovirus-like retrotransposons active in all\
+        \ three de novo genomes since the early diversification of the birds-of-paradise\
+        \ group, which could have potentially played a role in the evolution of this\
+        \ fascinating group of birds. Conclusion Here we provide a first glimpse into\
+        \ the genomic changes underlying the evolution of birds-of- paradise. Our\
+        \ aim was to use comparative genomics to study to what degree the genomic\
+        \ landscape of birds-of-paradise deviates from other closely related passerine\
+        \ birds. Given the extreme phenotypic diversity in this family, our prediction\
+        \ was that genomes should be able to reveal features important for the evolution\
+        \ of this amazing radiation. Overall, we found a strong signal for evolution\
+        \ on mechanisms important for coloration, morphology, sensory systems, as\
+        \ well as genome structure.\n]]></description>\n<dc:creator>Prost, S.</dc:creator>\n\
+        <dc:creator>Armstrong, E. E.</dc:creator>\n<dc:creator>Nylander, J.</dc:creator>\n\
+        <dc:creator>Thomas, G. W. C.</dc:creator>\n<dc:creator>Suh, A.</dc:creator>\n\
+        <dc:creator>Petersen, B.</dc:creator>\n<dc:creator>Dalen, L.</dc:creator>\n\
+        <dc:creator>Benz, B.</dc:creator>\n<dc:creator>Blom, M. P. K.</dc:creator>\n\
+        <dc:creator>Palkopoulou, E.</dc:creator>\n<dc:creator>Ericson, P. G. P.</dc:creator>\n\
+        <dc:creator>Irestedt, M.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/287086</dc:identifier>\n\
+        <dc:title><![CDATA[Comparative Genomics and Genome Evolution in Birds-of-paradise]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286906v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nIntronic miRNA Mediated Gene Expression Regulation\
+        \ Controls Protein Crowding Inside the Cell \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286906v1?rss=1\n\
+        </link>\n<description><![CDATA[\nGene regulatory effects of microRNAs at a\
+        \ posttranscriptional level has been established over the last decade. In\
+        \ this study, we analyze the interaction networks of mRNA translation regulation\
+        \ through intronic miRNA, under various tissue-specific cellular contexts,\
+        \ taking into account the thermodynamic affinity, chemical kinetics, co-localization,\
+        \ concentration levels, network parameters and the presence of competitive\
+        \ interactors. This database and analysis have been made available through\
+        \ an open-access web-server, miRiam to promote further exploration. Here we\
+        \ report that expression of genes involved in Apoptosis Processes, Immune\
+        \ System Processes, Translation Regulator Activities, and Molecular Transport\
+        \ Activities within the cell are predominately regulated by miRNA mediation.\
+        \ Our findings further indicate that this regulatory effect has a profound\
+        \ effect in controlling protein crowding inside the cell. A miRNA mediated\
+        \ gene expression regulation serves as a temporal regulator, allowing the\
+        \ cellular machinery to temporarily 'pause' the translation of mRNA, indicating\
+        \ that the miRNA-mRNA interactions may be important for governing the optimal\
+        \ usage of cell volume.\n]]></description>\n<dc:creator>Sinha, P.</dc:creator>\n\
+        <dc:creator>Jaiswal, P.</dc:creator>\n<dc:creator>Jainarayanan, A. K.</dc:creator>\n\
+        <dc:creator>Brahmachari, S. K.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n\
+        <dc:identifier>doi:10.1101/286906</dc:identifier>\n<dc:title><![CDATA[Intronic\
+        \ miRNA Mediated Gene Expression Regulation Controls Protein Crowding Inside\
+        \ the Cell]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-22</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287029v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSmart Region-Growing: a novel algorithm for the segmentation\
+        \ of 3D clarified confocal image stacks \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287029v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMotivation: Accurately mapping the brain\
+        \ at the micro-scale is still a challenge in cellular neuroscience. While\
+        \ notable success has been reached in the field of tissue clarification and\
+        \ confocal imaging to obtain high-fidelity maps of three-dimensional neuron\
+        \ organization, neuron segmentation is still far away of ground-truth and\
+        \ manual segmentation performed by experts may be needed. The need of an expert\
+        \ is in part related to the limited success of the algorithms and tools performing\
+        \ single-neuron segmentation from 3D microscopic image data available in the\
+        \ State of Art, in part to the non-complete information given by these methods,\
+        \ which typically perform neuron tracing and thus limit the interpretability\
+        \ of results. Results: In this paper, a novel algorithm for segmenting single\
+        \ neurons in their own arrangement within the brain is presented. The algorithm\
+        \ performs a region growing procedure with local thresholds based on the pixel\
+        \ intensity statistics typical of confocal acquisitions of biological samples\
+        \ and described by a mixture model. The algorithm is developed and tested\
+        \ on 3D confocal datasets obtained from clarified tissues. We compare the\
+        \ result of our algorithm with those obtained by manual segmentation performed\
+        \ by 6 different experts in terms of neuron surface area, volume and Sholl\
+        \ profiles. Statistical analysis performed on morphologic features extracted\
+        \ from the segmented structures confirms the feasibility of our approach.\
+        \ Availability: The Smart Region Growing (SmRG) algorithm used in the analysis\
+        \ along with test confocal image stacks is available on request to the authors.\
+        \ Contact: alejandrocallara@gmail.com Supplementary information: Supplementary\
+        \ data are available on request to the authors.\n]]></description>\n<dc:creator>Callara,\
+        \ A.</dc:creator>\n<dc:creator>Magliaro, C.</dc:creator>\n<dc:creator>Ahluwalia,\
+        \ A.</dc:creator>\n<dc:creator>Vanello, N.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n\
+        <dc:identifier>doi:10.1101/287029</dc:identifier>\n<dc:title><![CDATA[Smart\
+        \ Region-Growing: a novel algorithm for the segmentation of 3D clarified confocal\
+        \ image stacks]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/285437v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nAncient Fennoscandian genomes reveal origin and spread\
+        \ of Siberian ancestry in Europe \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/285437v1?rss=1\n\
+        </link>\n<description><![CDATA[\nEuropean history has been shaped by migrations\
+        \ of people, and their subsequent admixture. Recently, evidence from ancient\
+        \ DNA has brought new insights into migration events that could be linked\
+        \ to the advent of agriculture, and possibly to the spread of Indo-European\
+        \ languages. However, little is known so far about the ancient population\
+        \ history of north-eastern Europe, in particular about populations speaking\
+        \ Uralic languages, such as Finns and Saami. Here we analyse ancient genomic\
+        \ data from 11 individuals from Finland and Northwest Russia. We show that\
+        \ the specific genetic makeup of northern Europe traces back to migrations\
+        \ from Siberia that began at least 3,500 years ago. This ancestry was subsequently\
+        \ admixed into many modern populations in the region, in particular populations\
+        \ speaking Uralic languages today. In addition, we show that ancestors of\
+        \ modern Saami inhabited a larger territory during the Iron Age than today,\
+        \ which adds to historical and linguistic evidence for the population history\
+        \ of Finland.\n]]></description>\n<dc:creator>Lamnidis, T. C.</dc:creator>\n\
+        <dc:creator>Majander, K.</dc:creator>\n<dc:creator>Jeong, C.</dc:creator>\n\
+        <dc:creator>Salmela, E.</dc:creator>\n<dc:creator>Wessman, A.</dc:creator>\n\
+        <dc:creator>Moiseyev, V.</dc:creator>\n<dc:creator>Khartanovich, V.</dc:creator>\n\
+        <dc:creator>Balanovsky, O.</dc:creator>\n<dc:creator>Ongyerth, M.</dc:creator>\n\
+        <dc:creator>Weihmann, A.</dc:creator>\n<dc:creator>Sajantila, A.</dc:creator>\n\
+        <dc:creator>Kelso, J.</dc:creator>\n<dc:creator>Pa\u0308a\u0308bo, S.</dc:creator>\n\
+        <dc:creator>Onkamo, P.</dc:creator>\n<dc:creator>Haak, W.</dc:creator>\n<dc:creator>Krause,\
+        \ J.</dc:creator>\n<dc:creator>Schiffels, S.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n\
+        <dc:identifier>doi:10.1101/285437</dc:identifier>\n<dc:title><![CDATA[Ancient\
+        \ Fennoscandian genomes reveal origin and spread of Siberian ancestry in Europe]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286096v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nGene2Vec: Distributed Representation of Genes Based\
+        \ on Co-Expression \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286096v1?rss=1\n\
+        </link>\n<description><![CDATA[\nExisting functional description of genes\
+        \ are categorical, discrete, and mostly through manual process. In this work,\
+        \ we explore the idea of gene embedding, distributed representation of genes,\
+        \ in the spirit of word embedding. From a pure data-driven fashion, we trained\
+        \ a 300 dimension vector representation of all human genes, using gene co-expression\
+        \ patterns in 984 data sets from the GEO databases. These vectors capture\
+        \ functional relatedness of genes in terms of recovering known pathways -\
+        \ the average inner product (similarity) of genes within a pathway is 1.68X\
+        \ greater than that of random genes. Using t-SNE, we produced a gene co-expression\
+        \ map that shows local concentrations of tissue specific genes. We also illustrated\
+        \ the usefulness of the embedded gene vectors, laden with rich information\
+        \ on gene co-expression patterns, in tasks such as gene-gene interaction prediction.\
+        \ Overall, we believe that this distributed representation of genes may be\
+        \ useful for more bioinformatics applications.\n]]></description>\n<dc:creator>Du,\
+        \ J.</dc:creator>\n<dc:creator>Jia, P.</dc:creator>\n<dc:creator>Dai, Y.</dc:creator>\n\
+        <dc:creator>Tao, C.</dc:creator>\n<dc:creator>Zhao, Z.</dc:creator>\n<dc:creator>Zhi,\
+        \ D.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/286096</dc:identifier>\n\
+        <dc:title><![CDATA[Gene2Vec: Distributed Representation of Genes Based on\
+        \ Co-Expression]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286674v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nPerturbed functional networks in Alzheimers Disease\
+        \ reveal opposing roles for TGIF and EGR3 \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286674v1?rss=1\n\
+        </link>\n<description><![CDATA[\nWhile Alzheimers disease (AD) is the most\
+        \ prevalent cause of dementia, complex combinations of the underlying pathologies\
+        \ have led to evolved concepts in clinical and neuropathological criteria\
+        \ in the past decade. Pathological AD can be decomposed into subsets of individuals\
+        \ with significantly different antemortem cognitive decline rates. Using transcriptome\
+        \ as a proxy for functional state, we preselected 414 expression profiles\
+        \ of clinically and neuropathologically confirmed AD subjects and age matched\
+        \ non-demented controls sampled from a large community based neuropathological\
+        \ study. By combining brain tissue specific protein interactome with gene\
+        \ network, we identify functionally distinct composite clusters of genes which\
+        \ reveal extensive changes in expression levels in AD. The average global\
+        \ expression for clusters corresponding to synaptic transmission, metabolism,\
+        \ cell cycle, survival and immune response were downregulated while the upregulated\
+        \ cluster had a large set of uncharacterized pathways and processes that may\
+        \ constitute an AD specific phenotypic signature. We identified four master\
+        \ regulators across all clusters of differentially expressed genes by enrichment\
+        \ analysis including TGIF1 and EGR3. These transcription factors have previously\
+        \ not been associated with AD and were validated in brain tissue samples from\
+        \ an independent AD cohort. We identify TGIF1, a transcriptional repressor\
+        \ as being neuroprotective in AD by activating co-repressors regulating genes\
+        \ critical for DNA repair, maintaining homeostasis and arresting cell cycle.\
+        \ In addition, we show that loss of EGR3 regulation, mediates synaptic deficits\
+        \ by targeting the synaptic vesicle cycle. Collectively, our results highlight\
+        \ the utility of integrating protein interactions with gene perturbations\
+        \ to generate a comprehensive framework for characterizing the alterations\
+        \ in molecular network as applied to AD.\n]]></description>\n<dc:creator>Canchi,\
+        \ S.</dc:creator>\n<dc:creator>Raao, B.</dc:creator>\n<dc:creator>Masliah,\
+        \ D.</dc:creator>\n<dc:creator>Rosenthal, S. B.</dc:creator>\n<dc:creator>Sasik,\
+        \ R.</dc:creator>\n<dc:creator>Fisch, K. M.</dc:creator>\n<dc:creator>Jager,\
+        \ P. D.</dc:creator>\n<dc:creator>Bennett, D. A.</dc:creator>\n<dc:creator>Rissman,\
+        \ R. A.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/286674</dc:identifier>\n\
+        <dc:title><![CDATA[Perturbed functional networks in Alzheimers Disease reveal\
+        \ opposing roles for TGIF and EGR3]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286260v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEvidence for a potential role of miR-1908-5p and miR-3614-5p\
+        \ in autoimmune disease risk using genome-wide analyses \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/286260v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Genome-wide association studies (GWAS) have identified a large number of genetic\
+        \ risk loci for autoimmune diseases. However, the functional variants underlying\
+        \ these disease associations remain largely unknown. There is evidence that\
+        \ microRNA-mediated regulation may play an important role in this context.\
+        \ Therefore, we assessed whether autoimmune disease loci unfold their effects\
+        \ via altering microRNA expression in relevant immune cells. To this end,\
+        \ we performed microRNA expression quantitative trait loci (eQTL) analyses\
+        \ across 115 GWAS regions associated with 12 autoimmune diseases using next-generation\
+        \ sequencing data of 345 lymphoblastoid cell lines. Statistical analyses included\
+        \ the application and extension of a recently proposed framework (joint likelihood\
+        \ mapping), to microRNA expression data and microRNA target gene enrichment\
+        \ analyses of relevant GWAS data. Overall, only a minority of autoimmune disease\
+        \ risk loci may exert their pathophysiologic effects by altering miRNA expression\
+        \ based on JLIM. However, detailed functional fine-mapping revealed two independent\
+        \ GWAS regions harboring autoimmune disease risk SNPs with significant effects\
+        \ on microRNA expression. These relate to SNPs associated with Crohn's disease\
+        \ (CD; rs102275) and rheumatoid arthritis (RA; rs968567), which affect the\
+        \ expression of miR-1908-5p (p_rs102275=1.44e-20, p_rs968567=2.54e-14). In\
+        \ addition, an independent CD risk SNP, rs3853824, was found to alter the\
+        \ expression of miR-3614-5p (p=5.70e-7). To support these findings, we demonstrate\
+        \ that GWAS signals for RA and CD were enriched in genes predicted to be targeted\
+        \ by both miRNAs (all with p<0.05). In summary, our study points towards a\
+        \ pathophysiological role of miR-1908-5p and miR-3614-5p in autoimmunity.\n\
+        ]]></description>\n<dc:creator>Wohlers, I.</dc:creator>\n<dc:creator>Bertram,\
+        \ L.</dc:creator>\n<dc:creator>Lill, C.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n\
+        <dc:identifier>doi:10.1101/286260</dc:identifier>\n<dc:title><![CDATA[Evidence\
+        \ for a potential role of miR-1908-5p and miR-3614-5p in autoimmune disease\
+        \ risk using genome-wide analyses]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286252v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nPurge Haplotigs: Synteny Reduction for Third-gen Diploid\
+        \ Genome Assemblies \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286252v1?rss=1\n\
+        </link>\n<description><![CDATA[\nRecent developments in third-gen long read\
+        \ sequencing and diploid-aware assemblers have resulted in the rapid release\
+        \ of numerous reference-quality assemblies for diploid genomes. However, assembling\
+        \ highly heterozygous genomes is still facing a major problem where the two\
+        \ haplotypes for a region are highly polymorphic and the synteny is not recognised\
+        \ during assembly. This causes issues with downstream analysis, for example\
+        \ variant discovery using the haploid assembly, or haplotype reconstruction\
+        \ using the diploid assembly. A new pipeline--Purge Haplotigs--was developed\
+        \ specifically for third-gen assemblies to identify and reassign the duplicate\
+        \ contigs. The pipeline takes a draft haplotype-fused assembly or a diploid\
+        \ assembly, and read alignments to produce an improved assembly. The pipeline\
+        \ was tested on a simulated dataset and on four recent diploid (phased) de\
+        \ novo assemblies from third-generation long-read sequencing. All assemblies\
+        \ after processing with Purge Haplotigs were less duplicated with minimal\
+        \ impact on genome completeness. The software is available at https://bitbucket.org/mroachawri/purge_haplotigs\
+        \ under a permissive MIT licence.\n]]></description>\n<dc:creator>Roach, M.\
+        \ J.</dc:creator>\n<dc:creator>Schmidt, S. A.</dc:creator>\n<dc:creator>Borneman,\
+        \ A. R.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/286252</dc:identifier>\n\
+        <dc:title><![CDATA[Purge Haplotigs: Synteny Reduction for Third-gen Diploid\
+        \ Genome Assemblies]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286211v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nConservation and divergence in modules of the transcriptional\
+        \ programs of the human and mouse immune systems \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/286211v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Studies in mouse have shed important light on human hematopoietic differentiation\
+        \ and disease. However, substantial differences between the two species often\
+        \ limit the translation of findings from mouse to human. Here, we compare\
+        \ modules of co-expressed genes in human and mouse immune cells based on compendia\
+        \ of genome-wide profiles. We show that the overall modular organization of\
+        \ the transcriptional program is conserved. We highlight modules of co-expressed\
+        \ genes in one species that dissolve or split in the other species. Many of\
+        \ the associated regulatory mechanisms - as reflected by computationally inferred\
+        \ trans regulators, or enriched cis-regulatory elements - are conserved between\
+        \ the species. Nevertheless, the degree of conservation in regulatory mechanism\
+        \ is lower than that of expression, suggesting that distinct regulation may\
+        \ underlie some of the conserved transcriptional responses.\n]]></description>\n\
+        <dc:creator>Shay, T.</dc:creator>\n<dc:creator>Jojic, V.</dc:creator>\n<dc:creator>Zuk,\
+        \ O.</dc:creator>\n<dc:creator>Benoist, C.</dc:creator>\n<dc:creator>Koller,\
+        \ D.</dc:creator>\n<dc:creator>Regev, A.</dc:creator>\n<dc:creator>ImmGen\
+        \ Consortium,</dc:creator>\n<dc:date>2018-03-22</dc:date>\n<dc:identifier>doi:10.1101/286211</dc:identifier>\n\
+        <dc:title><![CDATA[Conservation and divergence in modules of the transcriptional\
+        \ programs of the human and mouse immune systems]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286104v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSingle-molecule optical mapping enables accurate molecular\
+        \ diagnosis of facioscapulohumeral muscular dystrophy (FSHD) \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/286104v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Facioscapulohumeral Muscular Dystrophy (FSHD) is a common adult muscular dystrophy\
+        \ in which the muscles of the face, shoulder blades and upper arms are among\
+        \ the most affected. FSHD is the only disease in which \"junk\" DNA was reactivated\
+        \ to cause disease, and the only repeat-related disease where less repeats\
+        \ cause disease. More than 95% of FSHD cases are associated with copy number\
+        \ loss of a 3.3kb tandem repeat (D4Z4 repeat) at the subtelomeric chromosomal\
+        \ region 4q35, of which pathogenic allele contains less than 10 repeats and\
+        \ has a specific genomic configuration called 4qA. Currently, genetic diagnosis\
+        \ of FSHD requires pulsed-field gel electrophoresis followed by Southern blot,\
+        \ which is labor-intensive, semi-quantitative and requires long turnaround\
+        \ time. Here, we developed a novel approach for genetic diagnosis of FSHD,\
+        \ by leveraging Bionano Saphyr single-molecule optical mapping platform. Using\
+        \ a bioinformatics pipeline developed for this assay, we found that the method\
+        \ gives direct quantitative measures of repeat numbers, can differentiate\
+        \ 4q35 and the highly paralogous 10q26 region, can determine the 4qA/4qB allelic\
+        \ configuration, and can quantitate levels of post-zygotic mosaicism. We evaluated\
+        \ this approach on 5 patients (including two with post-zygotic mosaicism)\
+        \ and 2 patients (including one with post-zygotic mosaicism) from two separate\
+        \ cohorts, and had complete concordance with Southern blots, but with improved\
+        \ quantification of repeat numbers. We concluded that single-molecule optical\
+        \ mapping is a viable approach for molecular diagnosis of FSHD and may be\
+        \ applied in clinical diagnostic settings once more validations are performed.\n\
+        ]]></description>\n<dc:creator>Dai, Y.</dc:creator>\n<dc:creator>Li, P.</dc:creator>\n\
+        <dc:creator>Wang, Z.</dc:creator>\n<dc:creator>Liang, F.</dc:creator>\n<dc:creator>Yang,\
+        \ F.</dc:creator>\n<dc:creator>Fang, L.</dc:creator>\n<dc:creator>Huang, Y.</dc:creator>\n\
+        <dc:creator>Huang, S.</dc:creator>\n<dc:creator>Zhou, J.</dc:creator>\n<dc:creator>Wang,\
+        \ D.</dc:creator>\n<dc:creator>Cui, L.</dc:creator>\n<dc:creator>Wang, K.</dc:creator>\n\
+        <dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286104</dc:identifier>\n\
+        <dc:title><![CDATA[Single-molecule optical mapping enables accurate molecular\
+        \ diagnosis of facioscapulohumeral muscular dystrophy (FSHD)]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286641v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMachine learning reveals missing edges and putative\
+        \ interaction mechanisms in microbial ecosystem networks \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/286641v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Microbes affect each other's growth in multiple, often elusive ways. The ensuing\
+        \ interdependencies form complex networks, believed to influence taxonomic\
+        \ composition, as well as community-level functional properties and dynamics.\
+        \ Elucidation of these networks is often pursued by measuring pairwise interaction\
+        \ in co-culture experiments. However, combinatorial complexity precludes the\
+        \ exhaustive experimental analysis of pairwise interactions even for moderately\
+        \ sized microbial communities. Here, we use a machine-learning random forest\
+        \ approach to address this challenge. In particular, we show how partial knowledge\
+        \ of a microbial interaction network, combined with trait-level representations\
+        \ of individual microbial species, can provide accurate inference of missing\
+        \ edges in the network and putative mechanisms underlying interactions. We\
+        \ applied our algorithm to two case studies: an experimentally mapped network\
+        \ of interactions between auxotrophic E. coli strains, and a large in silico\
+        \ network of metabolic interdependencies between 100 human gut-associated\
+        \ bacteria. For this last case, 5% of the network is enough to predict the\
+        \ remaining 95% with 80% accuracy, and mechanistic hypotheses produced by\
+        \ the algorithm accurately reflect known metabolic exchanges. Our approach,\
+        \ broadly applicable to any microbial or other ecological network, can drive\
+        \ the discovery of new interactions and new molecular mechanisms, both for\
+        \ therapeutic interventions involving natural communities and for the rational\
+        \ design of synthetic consortia.\n]]></description>\n<dc:creator>DiMucci,\
+        \ D.</dc:creator>\n<dc:creator>Kon, M.</dc:creator>\n<dc:creator>Segre, D.</dc:creator>\n\
+        <dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286641</dc:identifier>\n\
+        <dc:title><![CDATA[Machine learning reveals missing edges and putative interaction\
+        \ mechanisms in microbial ecosystem networks]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286351v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nProfiling of pluripotency factors in individual stem\
+        \ cells and early embryos \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286351v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMajor cell fate decisions are governed by\
+        \ sequence-specific transcription factors (TFs) that act in small cell populations\
+        \ within developing embryos. To understand how TFs regulate cell fate it is\
+        \ important to identify their genomic binding sites in these populations.\
+        \ However, current methods cannot profile TFs genome-wide at or near the single\
+        \ cell level. Here we adapt the CUT&RUN method to profile chromatin proteins\
+        \ in low cell numbers, mapping TF-DNA interactions in single cells and individual\
+        \ pre-implantation embryos for the first time. Using this method, we demonstrate\
+        \ that the pluripotency TF NANOG is significantly more dependent on the SWI/SNF\
+        \ family ATPase BRG1 for association with its genomic targets in vivo than\
+        \ in cultured cells, a finding that could not have been made using traditional\
+        \ approaches. Ultra-low input CUT&RUN (uliCUT&RUN) enables interrogation of\
+        \ TF binding from low cell numbers, with broad applicability to rare cell\
+        \ populations of importance in development or disease.\n]]></description>\n\
+        <dc:creator>Hainer, S. J.</dc:creator>\n<dc:creator>Boskovic, A.</dc:creator>\n\
+        <dc:creator>Rando, O. J.</dc:creator>\n<dc:creator>Fazzio, T. G.</dc:creator>\n\
+        <dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286351</dc:identifier>\n\
+        <dc:title><![CDATA[Profiling of pluripotency factors in individual stem cells\
+        \ and early embryos]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286302v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSex-specific changes in the aphid DNA methylation landscape\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286302v1?rss=1\n\
+        </link>\n<description><![CDATA[\nAphids present an ideal system to study epigenetics\
+        \ as they can produce diverse, but genetically identical, morphs in response\
+        \ to environmental stimuli. Here, using whole genome bisulphite sequencing\
+        \ and transcriptome sequencing of the green peach aphid (Myzus persicae),\
+        \ we present the first detailed analysis of cytosine methylation in an aphid\
+        \ and investigate differences in the methylation and transcriptional landscapes\
+        \ of male and asexual female morphs. We find that methylation primarily occurs\
+        \ in a CG dinucleotide (CpG) context and that exons are highly enriched for\
+        \ methylated CpGs, particularly at the 3' end of genes. Methylation is positively\
+        \ associated with gene expression, and methylated genes are more stably expressed\
+        \ than un-methylated genes. Male and asexual female morphs have distinct methylation\
+        \ profiles. Strikingly, these profiles are divergent between the sex chromosome\
+        \ and the autosomes; autosomal genes are hypo-methylated in males compared\
+        \ to asexual females, whereas genes belonging to the sex chromosome, which\
+        \ is haploid in males, are hyper-methylated. Overall, we find correlated changes\
+        \ in methylation and gene expression between males and asexual females, and\
+        \ this correlation is particularly strong for genes located on the sex chromosome.\
+        \ Our results suggest that differential methylation of sex-biased genes plays\
+        \ a role in M. persicae sexual differentiation.\n]]></description>\n<dc:creator>Mathers,\
+        \ T. C.</dc:creator>\n<dc:creator>Mugford, S. T.</dc:creator>\n<dc:creator>Percival-Alwyn,\
+        \ L.</dc:creator>\n<dc:creator>Chen, Y.</dc:creator>\n<dc:creator>Kaithakottil,\
+        \ G.</dc:creator>\n<dc:creator>Swarbreck, D.</dc:creator>\n<dc:creator>Hogenhout,\
+        \ S. A.</dc:creator>\n<dc:creator>van Oosterhout, C.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n\
+        <dc:identifier>doi:10.1101/286302</dc:identifier>\n<dc:title><![CDATA[Sex-specific\
+        \ changes in the aphid DNA methylation landscape]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/285734v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nRecovering signals of ghost archaic admixture in the\
+        \ genomes of present-day Africans \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/285734v1?rss=1\n\
+        </link>\n<description><![CDATA[\nAnalyses of Neanderthal and Denisovan genomes\
+        \ have characterized multiple interbreeding events between archaic and modern\
+        \ human populations. While several studies have suggested the presence of\
+        \ deeply diverged lineages in present-day African populations, we lack methods\
+        \ to precisely characterize these introgression events without access to reference\
+        \ archaic genomes. We present a novel reference-free method that combines\
+        \ diverse population genetic summary statistics to identify segments of archaic\
+        \ ancestry in present-day individuals. Using this method, we find that ~7.97{+/-}0.6%\
+        \ of the genetic ancestry from the West African Yoruba population traces its\
+        \ origin to an unidentified, archaic population (FDR [&le;]20%). We find several\
+        \ loci that harbor archaic ancestry at elevated frequencies and that the archaic\
+        \ ancestry in the Yoruba is reduced near selectively constrained regions of\
+        \ the genome suggesting that archaic admixture has had a systematic impact\
+        \ on the fitness of modern human populations both within and outside of Africa.\n\
+        ]]></description>\n<dc:creator>Durvasula, A.</dc:creator>\n<dc:creator>Sankararaman,\
+        \ S.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/285734</dc:identifier>\n\
+        <dc:title><![CDATA[Recovering signals of ghost archaic admixture in the genomes\
+        \ of present-day Africans]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286054v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMetabolic adaptations underlie epigenetic vulnerabilities\
+        \ in chemoresistant breast cancer. \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286054v1?rss=1\n\
+        </link>\n<description><![CDATA[\nCancer cell survival upon cytotoxic drug\
+        \ exposure leads to changes in cell identity, dictated by the epigenome. Several\
+        \ metabolites serve as substrates or co-factors to chromatin-modifying enzymes,\
+        \ suggesting that metabolic changes can underlie change in cell fate. Here,\
+        \ we show that progression of triple-negative breast cancer (TNBC) to taxane-resistance\
+        \ is characterized by altered methionine metabolism and S-adenosylmethionine\
+        \ (SAM) availability, giving rise to DNA hypomethylation in regions enriched\
+        \ for transposable elements (TE). Compensatory redistribution of H3K27me3\
+        \ forming Large Organized Chromatin domains of lysine (K) modification (LOCK)\
+        \ prevents expression of TE in taxane-resistant cells. Pharmacological inhibition\
+        \ of EZH2, the H3K27me3 methyltransferase, alleviates TE repression, leading\
+        \ to the accumulation of dsRNA and activation of the interferon viral mimicry-response,\
+        \ specifically inhibiting the growth of taxane-resistant TNBC. Together, our\
+        \ work delineates a role for metabolic adaptations in redefining the epigenome\
+        \ of taxane-resistant TNBC cells and underlies an epigenetic vulnerability\
+        \ toward pharmacological inhibition of EZH2.\n]]></description>\n<dc:creator>Deblois,\
+        \ G.</dc:creator>\n<dc:creator>Tonekaboni, S. A.</dc:creator>\n<dc:creator>Kao,\
+        \ Y.</dc:creator>\n<dc:creator>Tai, F.</dc:creator>\n<dc:creator>Liu, X.</dc:creator>\n\
+        <dc:creator>Ettayebi, I.</dc:creator>\n<dc:creator>Grillo, G.</dc:creator>\n\
+        <dc:creator>Guilhamon, P.</dc:creator>\n<dc:creator>Ba-alawi, W.</dc:creator>\n\
+        <dc:creator>Fedor, A.</dc:creator>\n<dc:creator>Murison, A.</dc:creator>\n\
+        <dc:creator>Cescon, D.</dc:creator>\n<dc:creator>Arrowsmith, C.</dc:creator>\n\
+        <dc:creator>DeCarvalho, D.</dc:creator>\n<dc:creator>Park, M.</dc:creator>\n\
+        <dc:creator>Haibe-Kains, B.</dc:creator>\n<dc:creator>Locasale, J. W.</dc:creator>\n\
+        <dc:creator>Lupien, M.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286054</dc:identifier>\n\
+        <dc:title><![CDATA[Metabolic adaptations underlie epigenetic vulnerabilities\
+        \ in chemoresistant breast cancer.]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/285692v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nError Correcting Optical Mapping Data \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/285692v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Optical mapping is a unique system that is capable of producing high-resolution,\
+        \ high-throughput genomic map data that gives information about the structure\
+        \ of a genome [21]. Recently it has been used for scaffolding contigs and\
+        \ assembly validation for large-scale sequencing projects, including the maize\
+        \ [32], goat [6], and amborella [4] genomes. However, a major impediment in\
+        \ the use of this data is the variety and quantity of errors in the raw optical\
+        \ mapping data, which are called Rmaps. The challenges associated with using\
+        \ Rmap data are analogous to dealing with insertions and deletions in the\
+        \ alignment of long reads. Moreover, they are arguably harder to tackle since\
+        \ the data is numerical and susceptible to inaccuracy. We develop cOMet to\
+        \ error correct Rmap data, which to the best of our knowledge is the only\
+        \ optical mapping error correction method. Our experimental results demonstrate\
+        \ that cOMet has high prevision and corrects 82.49% of insertion errors and\
+        \ 77.38% of deletion errors in Rmap data generated from the E. coli K-12 reference\
+        \ genome. Out of the deletion errors corrected, 98.26% are true errors. Similarly,\
+        \ out of the insertion errors corrected, 82.19% are true errors. It also successfully\
+        \ scales to large genomes, improving the quality of 78% and 99% of the Rmaps\
+        \ in the plum and goat genomes, respectively. Lastly, we show the utility\
+        \ of error correction by demonstrating how it improves the assembly of Rmap\
+        \ data. Error corrected Rmap data results in an assembly that is more contiguous,\
+        \ and covers a larger fraction of the genome.\n]]></description>\n<dc:creator>Mukherjee,\
+        \ K.</dc:creator>\n<dc:creator>Washimkar, D.</dc:creator>\n<dc:creator>Muggli,\
+        \ M. D.</dc:creator>\n<dc:creator>Salmela, L.</dc:creator>\n<dc:creator>Boucher,\
+        \ C.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/285692</dc:identifier>\n\
+        <dc:title><![CDATA[Error Correcting Optical Mapping Data]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/285783v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nThe Genomic Prediction of Disease: Example of type\
+        \ 2 diabetes (T2D) \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/285783v1?rss=1\n\
+        </link>\n<description><![CDATA[\nApplication of concepts from information\
+        \ theory have revealed new features of Single Nucleotide Polymorphism (SNP)\
+        \ organization. These features lead to effective classifiers by which to distinguish\
+        \ genomic sequences of contrasting phenotypes; as in case/control cohorts.\
+        \ When applied to a disease/control database, a disease classifier results;\
+        \ a parallel analysis leads to the determination of a wellness classifier.\
+        \ The classifiers have non-intersecting loci, and each involves roughly 100\
+        \ alleles. The effectiveness of this framework is illustrated by application\
+        \ to adult onset, type 2, diabetes (T2D), as represented in the Wellcome Trust\
+        \ (WT) Case/Control database. Simultaneous use of the two classifiers on the\
+        \ WT database leads to successful prediction of disease versus wellness; to\
+        \ the extent that near certain genomic forecasting is achieved. This framework\
+        \ gives a resolution to the oft posed uncertainty: \"Where is the missing\
+        \ heritability?\" Application of both classifiers on two additional T2D databases\
+        \ produced informative consequences. A fully independent, compelling, confirmation\
+        \ of the present results is obtained by means of the machine learning algorithm,\
+        \ Random Forests. The analytical model presented here is generalizable to\
+        \ other diseases.\n]]></description>\n<dc:creator>Sirovich, L.</dc:creator>\n\
+        <dc:date>2018-03-20</dc:date>\n<dc:identifier>doi:10.1101/285783</dc:identifier>\n\
+        <dc:title><![CDATA[The Genomic Prediction of Disease: Example of type 2 diabetes\
+        \ (T2D)]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-20</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n \r\n\r\n\r\n\r\n</rdf:RDF>\r\n"}
+    headers:
+      connection: [Keep-Alive]
+      content-type: [application/xml;")]
+      date: ['Fri, 23 Mar 2018 21:11:34 GMT']
+      keep-alive: ['timeout=30, max=3000']
+      server: [Apache/2.2.15 (Red Hat)]
+      x-powered-by: [PHP/5.4.40]
+    status: {code: 200, message: OK}
+version: 1

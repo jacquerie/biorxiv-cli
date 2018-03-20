@@ -1,0 +1,893 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://connect.biorxiv.org/biorxiv_xml.php?subject=biochemistry
+  response:
+    body: {string: !!python/unicode "<rdf:RDF xmlns:admin=\"http://webns.net/mvcb/\"\
+        \ xmlns=\"http://purl.org/rss/1.0/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\
+        \ xmlns:prism=\"http://purl.org/rss/1.0/modules/prism/\" xmlns:taxo=\"http://purl.org/rss/1.0/modules/taxonomy/\"\
+        \ xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\
+        \ xmlns:syn=\"http://purl.org/rss/1.0/modules/syndication/\">\r\n<channel\
+        \ rdf:about=\"http://biorxiv.org\">\r\n<admin:errorReportsTo rdf:resource=\"\
+        mailto:biorxiv@cshlpress.edu\"/>\r\n<title>bioRxiv Subject Collection: Biochemistry</title>\r\
+        \n<link>http://biorxiv.org</link>\r\n<description>\r\nThis feed contains articles\
+        \ for bioRxiv Subject Collection \"Biochemistry\"\r\n</description>\r\n\r\n\
+        \ \r\n\r\n\r\n\r\n<items>\r\n<rdf:Seq>\r\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287961v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287102v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286237v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286633v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/279265v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/284802v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/284034v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/283069v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/283176v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/282822v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/282525v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/281535v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/280503v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/281220v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/280248v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/280222v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/280230v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/279216v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/278093v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/277822v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/278119v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/277053v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/274910v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/274688v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/274191v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/273516v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/273078v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/271593v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/270454v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/269613v1?rss=1\"\
+        />\n</rdf:Seq>\r\n</items>\r\n<prism:eIssn/>\r\n<prism:publicationName>bioRxiv</prism:publicationName>\r\
+        \n<prism:issn/>\r\n\r\n<image rdf:resource=\"\"/>\r\n</channel>\r\n<image\
+        \ rdf:about=\"\">\r\n<title>bioRxiv</title>\r\n<url/>\r\n<link>http://biorxiv.org</link>\r\
+        \n</image>\r\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287961v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nInfluence of SNF1 complex on growth, glucose metabolism\
+        \ and mitochondrial respiration of Saccharomyces cerevisiae \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/287961v1?rss=1\n</link>\n<description><![CDATA[\n\
+        The switch of mitochondrial respiration to fermentation as the main pathway\
+        \ to produce ATP through the increase of glycolytic flux is known as the Crabtree\
+        \ effect. The elucidation of the molecular mechanism of the Crabtree effect\
+        \ may have important applications in ethanol production and lay the groundwork\
+        \ for the Warburg effect, which is essential in the molecular etiology of\
+        \ cancer. A key piece in this mechanism could be Snf1p, which is a protein\
+        \ that participates in the nutritional response that includes glucose metabolism.\
+        \ Thus, this work aimed to recognize the role of the SNF1 complex on the glycolytic\
+        \ flux and mitochondrial respiration, to gain insights about its relationship\
+        \ with the Crabtree effect. Herein, we found that in Saccharomyces cerevisiae\
+        \ cells grown at 1% glucose, mutation of SNF1 gene decreased glycolytic flux,\
+        \ increased NAD(P)H, enhanced HXK2 gene transcription, and decreased mitochondrial\
+        \ respiration. Meanwhile, the same mutation increased the mitochondrial respiration\
+        \ of cells grown at 10% glucose. Moreover, SNF4 gene deletion increased respiration\
+        \ and growth at 1% of glucose. In the case of the GAL83 gene, we did not detect\
+        \ any change in mitochondrial respiration or growth. Altogether, these findings\
+        \ indicate that SNF1 is vital to switch from mitochondrial respiration to\
+        \ fermentation.\n]]></description>\n<dc:creator>Martinez-Ortiz, C.</dc:creator>\n\
+        <dc:creator>Carrillo-Garmendia, A.</dc:creator>\n<dc:creator>Correa-Romero,\
+        \ B. F.</dc:creator>\n<dc:creator>Canizal-Garcia, M.</dc:creator>\n<dc:creator>Gonzalez-Hernandez,\
+        \ J. C.</dc:creator>\n<dc:creator>Regalado-Gonzalez, C.</dc:creator>\n<dc:creator>Olivares-Marin,\
+        \ I. K.</dc:creator>\n<dc:creator>Madrigal-Perez, L. A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287961</dc:identifier>\n<dc:title><![CDATA[Influence\
+        \ of SNF1 complex on growth, glucose metabolism and mitochondrial respiration\
+        \ of Saccharomyces cerevisiae]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287102v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nCrystallographic observation of nonenzymatic RNA primer\
+        \ extension \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287102v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe importance of genome replication has\
+        \ inspired detailed crystallographic studies of enzymatic DNA/RNA polymerization.\
+        \ In contrast, the mechanism of nonenzymatic polymerization is less well understood,\
+        \ despite its critical role in the origin of life. Here we report the direct\
+        \ observation of nonenzymatic RNA primer extension through time-resolved crystallography.\
+        \ We soaked crystals of an RNA primer-template-dGMP complex with guanosine-5'-phosphoro-2-aminoimidazolide\
+        \ for increasing times. At early times we see the activated ribonucleotides\
+        \ bound to the template, followed by formation of the imidazolium-bridged\
+        \ dinucleotide intermediate. At later times, we see a new phosphodiester bond\
+        \ forming between the primer and the incoming nucleotide. The intermediate\
+        \ is pre-organized because of the constraints of base-pairing with the template\
+        \ and hydrogen bonding between the imidazole amino group and both flanking\
+        \ phosphates. Our results provide atomic-resolution insight into the mechanism\
+        \ of nonenzymatic primer extension, and set the stage for further structural\
+        \ dissection and optimization of the RNA copying process.\n]]></description>\n\
+        <dc:creator>Szostak, J. W.</dc:creator>\n<dc:creator>Zhang, W.</dc:creator>\n\
+        <dc:creator>Walton, T.</dc:creator>\n<dc:creator>Li, L.</dc:creator>\n<dc:date>2018-03-22</dc:date>\n\
+        <dc:identifier>doi:10.1101/287102</dc:identifier>\n<dc:title><![CDATA[Crystallographic\
+        \ observation of nonenzymatic RNA primer extension]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286237v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nFrequent Monitoring of C-peptide Levels in Newly Diagnosed\
+        \ Type 1 Subjects Using Dried Blood Spots Collected at Home \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/286237v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Objective: To evaluate a novel approach to measure beta-cell function by frequent\
+        \ testing of C-peptide concentrations in dried blood spots (DBS). Patients:\
+        \ Thirty-two children, aged 7-17 years, recently diagnosed with type 1 diabetes.\
+        \ Design: Mixed-meal-tolerance-test (MMTT) within 6 and again 12 months after\
+        \ diagnosis with paired venous and DBS C-peptide sampling at 0 and 90 minutes.\
+        \ Weekly DBS C-peptide before and after standardized breakfasts collected\
+        \ at home. Results: DBS and plasma C-peptide levels (n=115) correlated strongly\
+        \ (r=0.91; p<0.001). The Bland-Altman plot indicated good agreement. The median\
+        \ number of home-collected DBS cards per participant was 24 over a median\
+        \ of 6.9 months. Repeated DBS C-peptide levels varied considerably within\
+        \ and between subjects. Adjustment for corresponding home glucose measurements\
+        \ reduced the variance permitting accurate description of changes over time.\
+        \ The correlation of the C-peptide slope over time assessed by repeated home\
+        \ DBS versus area under the curve during the two MMTTs was r=0.73; p<0.001.\
+        \ Mixed models showed that a 1-month increase of diabetes duration was associated\
+        \ with 17 pmol/l decline in fasting DBS C-peptide, whereas increases of 1\
+        \ mmol/l in glucose, 1 year older age-at-diagnosis and 100 pmol/l higher baseline\
+        \ plasma C-peptide were associated with 18, 17 and 61 pmol/l higher fasting\
+        \ DBS C-peptide levels, respectively. In addition, glucose responsiveness\
+        \ decreased with longer diabetes duration. Conclusion: Our approach permitted\
+        \ frequent assessment of C-peptide, making it feasible to monitor beta-cell\
+        \ function at home. Evaluation of changes in the slope of C-peptide using\
+        \ this method may permit short-term evaluation of promising interventions.\n\
+        ]]></description>\n<dc:creator>Willemsen, R. H.</dc:creator>\n<dc:creator>Burling,\
+        \ K.</dc:creator>\n<dc:creator>Barker, P.</dc:creator>\n<dc:creator>Ackland,\
+        \ F.</dc:creator>\n<dc:creator>Dias, R. P.</dc:creator>\n<dc:creator>Edge,\
+        \ J.</dc:creator>\n<dc:creator>Smith, A.</dc:creator>\n<dc:creator>Todd, J.</dc:creator>\n\
+        <dc:creator>Lopez, B.</dc:creator>\n<dc:creator>Mander, A. P.</dc:creator>\n\
+        <dc:creator>Guy, C.</dc:creator>\n<dc:creator>Dunger, D. B.</dc:creator>\n\
+        <dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286237</dc:identifier>\n\
+        <dc:title><![CDATA[Frequent Monitoring of C-peptide Levels in Newly Diagnosed\
+        \ Type 1 Subjects Using Dried Blood Spots Collected at Home]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286633v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nPhosphoserine acidic cluster motifs in the cytoplasmic\
+        \ domains of transmembrane proteins bind distinct basic regions on the {mu}\
+        \ subunits of clathrin adaptor protein complexes \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/286633v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Protein trafficking in the endosomal system involves the recognition of specific\
+        \ signals within the cytoplasmic domains (CDs) of transmembrane proteins by\
+        \ clathrin adaptors. One such signal is the phosphoserine acidic cluster (PSAC),\
+        \ the prototype of which is in the endoprotease Furin. How PSACs are recognized\
+        \ by clathrin adaptors has been controversial. We reported previously that\
+        \ HIV-1 Vpu, which modulates cellular immunoreceptors, contains a PSAC that\
+        \ binds to the  subunits of clathrin adaptor protein (AP) complexes. Here,\
+        \ we show that the CD of Furin binds the  subunits of AP-1 and AP-2 in a phosphorylation-dependent\
+        \ manner. Moreover, we identify a PSAC in a cytoplasmic loop of the cellular\
+        \ transmembrane Serinc3, an inhibitor of the infectivity of retroviruses.\
+        \ The two serines within the PSAC of Serinc3 are phosphorylated by casein\
+        \ kinase II and mediate interaction with the  subunits in vitro. The sites\
+        \ of these serines vary among mammals in a manner consistent with host-pathogen\
+        \ conflict, yet the Serinc3-PSAC seems dispensible for anti-HIV activity and\
+        \ for counteraction by HIV-1 Nef. The CDs of Vpu, Furin, and the PSAC-containing\
+        \ loop of Serinc3 each bind the  subunit of AP-2 () with similar affinities,\
+        \ but they appear to utilize different basic regions on . The Serinc3 loop\
+        \ requires a region previously reported to bind the acidic plasma membrane\
+        \ lipid phosphatidylinositol-4,5-bisphosphate. These data suggest that the\
+        \ PSACs within different proteins recognize different basic regions on the\
+        \  surface, providing the potential to inhibit the activity of viral proteins\
+        \ without necessarily affecting cellular protein trafficking.\n]]></description>\n\
+        <dc:creator>Singh, R.</dc:creator>\n<dc:creator>Stoneham, C.</dc:creator>\n\
+        <dc:creator>Lim, C.</dc:creator>\n<dc:creator>jia, X.</dc:creator>\n<dc:creator>Guenaga,\
+        \ J.</dc:creator>\n<dc:creator>Wyatt, R.</dc:creator>\n<dc:creator>Wertheim,\
+        \ J. o.</dc:creator>\n<dc:creator>Xiong, Y.</dc:creator>\n<dc:creator>Guatelli,\
+        \ J.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n<dc:identifier>doi:10.1101/286633</dc:identifier>\n\
+        <dc:title><![CDATA[Phosphoserine acidic cluster motifs in the cytoplasmic\
+        \ domains of transmembrane proteins bind distinct basic regions on the {mu}\
+        \ subunits of clathrin adaptor protein complexes]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/279265v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA proteome-based design of bitter peptide digestion\
+        \ regime to attenuate cod-bone soup bitterness: comparison with a rainbow\
+        \ trout extract-mediated bitter taste masking approach \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/279265v1?rss=1\n</link>\n<description><![CDATA[\n\
+        BACKGROUND: The fresh bones (with some meat on them; frequently discarded\
+        \ as a large quantity of industry garbage) of marine fish such as cod and\
+        \ salmon are good materials for manufacture of food additives (taste adjusters).\
+        \ However, such fish-bone originated additives often have apparent bitter\
+        \ taste and need additional debittering regime. RESULTS: In this study, 46\
+        \ known bitter peptides in the cod proteome were targeted for specific protease\
+        \ digestion to eliminate bitter taste from the cod bone soup. Though the debittering\
+        \ effect was apparent, the bitter taste was not completely removed. However,\
+        \ the bitter taste can be removed by addition of trout extract to a complete\
+        \ extent. The strong debittering power of rainbow trout extract was further\
+        \ confirmed by the debittering experiments on salmon bone soup and bitter\
+        \ melon, both with perfect results. CONCLUSION: These results indicated that\
+        \ the cod bone soup bitterness comes not only from bitter peptide but also\
+        \ from other substances that can be masked by trout extract. Considering the\
+        \ fact that trout proteome has more potential bitter peptides than cod, trout\
+        \ extract shall have a strong bitter masking substance to be determined in\
+        \ the future.\n]]></description>\n<dc:creator>Han, Y.</dc:creator>\n<dc:creator>Guo,\
+        \ C.</dc:creator>\n<dc:creator>Yan, Z.</dc:creator>\n<dc:creator>Jin, F.</dc:creator>\n\
+        <dc:creator>Jiang, J.</dc:creator>\n<dc:creator>Zhang, Z.</dc:creator>\n<dc:date>2018-03-21</dc:date>\n\
+        <dc:identifier>doi:10.1101/279265</dc:identifier>\n<dc:title><![CDATA[A proteome-based\
+        \ design of bitter peptide digestion regime to attenuate cod-bone soup bitterness:\
+        \ comparison with a rainbow trout extract-mediated bitter taste masking approach]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-21</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/284802v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nConversion of a soluble protein into a potent chaperone\
+        \ in vivo \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/284802v1?rss=1\n\
+        </link>\n<description><![CDATA[\nProtein-folding assistance and aggregation\
+        \ inhibition by cellular factors are largely understood in the context of\
+        \ molecular chaperones. As an alternative and complementary model, we previously\
+        \ proposed that, in general, soluble cellular macromolecules including chaperones\
+        \ with large excluded volume and surface charges exhibit the intrinsic chaperone\
+        \ activity to prevent aggregation of their connected polypeptides, irrespective\
+        \ of the connection types, and thus to aid productive protein folding. As\
+        \ a proof of concept, we here demonstrated that a model soluble protein with\
+        \ an inactive protease domain robustly exerted chaperone activity toward various\
+        \ proteins harboring a short protease-recognition tag of 7 residues in Escherichia\
+        \ coli. The chaperone activity of this protein was similar or even superior\
+        \ to that of representative E. coli chaperones in vivo. Furthermore, in vitro\
+        \ refolding experiments confirmed the in vivo results. Our findings revealed\
+        \ that a soluble protein exhibits the intrinsic chaperone activity, which\
+        \ is manifested, upon binding to aggregation-prone proteins. This study gives\
+        \ new insights into the ubiquitous chaperoning role of cellular macromolecules\
+        \ in protein-folding assistance and aggregation inhibition underlying the\
+        \ maintenance of protein solubility and proteostasis in vivo.\n]]></description>\n\
+        <dc:creator>Choi, S. I.</dc:creator>\n<dc:creator>Kwon, S. B.</dc:creator>\n\
+        <dc:creator>Ryu, K.</dc:creator>\n<dc:creator>Son, A.</dc:creator>\n<dc:creator>Jeong,\
+        \ H.</dc:creator>\n<dc:creator>Lim, K.-H.</dc:creator>\n<dc:creator>Kim, K.-H.</dc:creator>\n\
+        <dc:creator>Seong, B.</dc:creator>\n<dc:date>2018-03-19</dc:date>\n<dc:identifier>doi:10.1101/284802</dc:identifier>\n\
+        <dc:title><![CDATA[Conversion of a soluble protein into a potent chaperone\
+        \ in vivo]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-19</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/284034v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nStructures reveal opening of the store-operated calcium\
+        \ channel Orai \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/284034v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe store-operated calcium (Ca2+) channel\
+        \ Orai governs Ca2+ influx through the plasma membrane of many non-excitable\
+        \ cells in metazoans. The channel opens in response to depletion of Ca2+ within\
+        \ the endoplasmic reticulum (ER). Loss- and gain-of-function mutants of Orai\
+        \ cause disease. Our previous work revealed the structure of Orai with a closed\
+        \ pore. Here, using a gain-of-function mutation that constitutively activates\
+        \ the channel, we present an X-ray structure of Drosophila melanogaster Orai\
+        \ in an open conformation. Well-defined electron density maps reveal that\
+        \ the open pore is dramatically dilated on its cytosolic side in comparison\
+        \ to the slender closed pore. Cations and anions bind in different regions\
+        \ of the open pore, informing mechanisms for ion permeation and the exquisite\
+        \ selectivity of the channel for Ca2+. Opening of the pore requires the release\
+        \ of cytosolic latches. Together with additional X-ray structures of an unlatched-but-closed\
+        \ intermediate, we propose a sequence for store-operated activation.\n]]></description>\n\
+        <dc:creator>Hou, X.</dc:creator>\n<dc:creator>Burstein, S. R.</dc:creator>\n\
+        <dc:creator>Long, S.</dc:creator>\n<dc:date>2018-03-17</dc:date>\n<dc:identifier>doi:10.1101/284034</dc:identifier>\n\
+        <dc:title><![CDATA[Structures reveal opening of the store-operated calcium\
+        \ channel Orai]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-17</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/283069v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nIdentifying small molecule binding sites for epigenetic\
+        \ proteins at domain-domain interfaces \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/283069v1?rss=1\n\
+        </link>\n<description><![CDATA[\nEpigenetics is of rapidly growing field in\
+        \ drug discovery. Of particular interest is the role of post-translational\
+        \ modifications to histone and the proteins that read, write, and erase such\
+        \ modifications. The development of inhibitors for reader domains has focused\
+        \ on single domains. One of the major difficulties of designing inhibitors\
+        \ for reader domains, is that with the notable exception of bromodomains,\
+        \ they tend not to possess a well enclosed binding site amenable to small\
+        \ molecule inhibition. As many of the proteins in epigenetic regulation have\
+        \ multiple domains there are opportunities for designing inhibitors that bind\
+        \ at a domain-domain interface which provide a more suitable interaction pocket.\
+        \ Examination of X-ray structures of multiple domains involved in recognizing\
+        \ and modifying post-translational histone marks using the SiteMap algorithm\
+        \ identified potential binding sites at domain-domain interfaces. For the\
+        \ tandem plant homeodomain-bromodomain of SP100C, a potential inter-domain\
+        \ site identified computationally was validated experimentally by the discovery\
+        \ of ligands by X-ray crystallographic fragment screening.\n]]></description>\n\
+        <dc:creator>Brennan, P.</dc:creator>\n<dc:creator>Bowkett, D.</dc:creator>\n\
+        <dc:creator>Talon, R.</dc:creator>\n<dc:creator>Tallant, C.</dc:creator>\n\
+        <dc:creator>Schofield, C.</dc:creator>\n<dc:creator>Von Delft, F.</dc:creator>\n\
+        <dc:creator>Knapp, S.</dc:creator>\n<dc:creator>Bruton, G.</dc:creator>\n\
+        <dc:date>2018-03-16</dc:date>\n<dc:identifier>doi:10.1101/283069</dc:identifier>\n\
+        <dc:title><![CDATA[Identifying small molecule binding sites for epigenetic\
+        \ proteins at domain-domain interfaces]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-16</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/283176v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nStructural elements required for coupling ion and substrate\
+        \ transport in the neurotransmitter transporter homolog LeuT. \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/283176v1?rss=1\n</link>\n<description><![CDATA[\n\
+        The coupled transport of ions and substrates allows transporters to accumulate\
+        \ substrates using the energy in transmembrane ion gradients and electrical\
+        \ potentials. During transport, conformational changes that switch accessibility\
+        \ of substrate and ion binding sites from one side of the membrane to the\
+        \ other must be controlled so as to prevent uncoupled movement of ions or\
+        \ substrates. In the Neurotransmitter:Sodium Symporter (NSS) family, Na+ stabilizes\
+        \ the transporter in an outward-open state, thus decreasing the likelihood\
+        \ of uncoupled Na+ transport. In a step essential for coupled transport, substrate\
+        \ binding must overcome the effect of Na+, allowing intracellular substrate\
+        \ and Na+ release from an inward-open state. However, it is unclear which\
+        \ specific elements of the protein mediate this conformational response to\
+        \ substrate binding. Previously, we showed that in the prokaryotic NSS transporter\
+        \ LeuT, the effect of Na+ on conformation occurs at the Na2 site, where it\
+        \ influences conformation by fostering interaction between two domains of\
+        \ the protein (JBC 291: 1456, 2016). Here, we identify a conserved tyrosine\
+        \ residue in the substrate binding site required for substrate to enable conversion\
+        \ to inward-open states by establishing an interaction between the two transporter\
+        \ domains. We further identify additional interactions between the two transporter\
+        \ domains in the extracellular pathway that are required. Together with our\
+        \ previous work on the conformational effect of Na+, these results identify\
+        \ mechanistic components underlying ion-substrate coupling in NSS transporters.\n\
+        ]]></description>\n<dc:creator>Zhang, Y.-W.</dc:creator>\n<dc:creator>Tavoulari,\
+        \ S.</dc:creator>\n<dc:creator>Sinning, S.</dc:creator>\n<dc:creator>Aleksandrova,\
+        \ A.</dc:creator>\n<dc:creator>Forrest, L. R.</dc:creator>\n<dc:creator>Rudnick,\
+        \ G.</dc:creator>\n<dc:date>2018-03-15</dc:date>\n<dc:identifier>doi:10.1101/283176</dc:identifier>\n\
+        <dc:title><![CDATA[Structural elements required for coupling ion and substrate\
+        \ transport in the neurotransmitter transporter homolog LeuT.]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-15</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/282822v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nDeactivation and Mislocalization of a kinase protein\
+        \ induced by a single amino acid mutation on the proton transport catalytic\
+        \ aspartic acid \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/282822v1?rss=1\n\
+        </link>\n<description><![CDATA[\nRhoptry protein 18 (ROP18) is a major determinant\
+        \ of strain-specific virulence in Toxoplasma gondii. The kinase activity of\
+        \ ROP18 is required for acute virulence, while the aspartate in the catalytic\
+        \ loop of ROP18 is considered essential for phosphoryl transfer. We showed\
+        \ that a single amino acid mutation at the catalytic aspartate residue (D409A\
+        \ mutation) significantly altered ROP18 kinase activity in vitro, and abolished\
+        \ ROP18-mediated ATF6{beta} degradation. Furthermore, the investigated single\
+        \ amino acid mutation in ROP18 led to alternation of subcellular localization\
+        \ of ROP18 protein. Structural modeling analysis suggests that these phenotypes\
+        \ might be associated with D409A mutation induced conformation changes in\
+        \ ROP18. Our findings demonstrate that a single amino acid mutation on the\
+        \ proton transport catalytic aspartic acid induced conformational alternations\
+        \ in ROP18 resulting in functional changes associated with ROP18 protein.\n\
+        ]]></description>\n<dc:creator>Zhang, Y.</dc:creator>\n<dc:date>2018-03-15</dc:date>\n\
+        <dc:identifier>doi:10.1101/282822</dc:identifier>\n<dc:title><![CDATA[Deactivation\
+        \ and Mislocalization of a kinase protein induced by a single amino acid mutation\
+        \ on the proton transport catalytic aspartic acid]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-15</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/282525v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSite-Specific Labelling of Multidomain Proteins by\
+        \ Amber Codon Suppression \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/282525v1?rss=1\n\
+        </link>\n<description><![CDATA[\nAmber codon suppression is a powerful tool\
+        \ to site-specifically modify proteins to generate novel biophysical probes.\
+        \ Yet, its application on large and complex multidomain proteins is challenging,\
+        \ leading to difficulties during structural and conformational characterization\
+        \ using spectroscopic methods. The animal fatty acid synthase type I is a\
+        \ 540 kDa homodimer displaying large conformational variability. As the key\
+        \ enzyme of de novo fatty acid synthesis, it attracts interest in the fields\
+        \ of obesity, diabetes and cancer treatment. Substrates and intermediates\
+        \ remain covalently bound to the enzyme during biosynthesis and are shuttled\
+        \ to all catalytic domains by the acyl carrier protein domain. Thus, conformational\
+        \ variability of animal FAS is an essential aspect for fatty acid biosynthesis.\
+        \ We investigate this multidomain protein as a model system for probing amber\
+        \ codon suppression by genetic encoding of non-canonical amino acids. The\
+        \ systematic approach relies on a microplate-based reporter assay of low complexity,\
+        \ that was used for quick screening of suppression conditions. Furthermore,\
+        \ the applicability of the reporter assay is demonstrated by successful upscaling\
+        \ to both full-length constructs and increased expression scale. The obtained\
+        \ fluorescent probes of murine FAS type I could be subjected readily to a\
+        \ conformational analysis using single-molecule fluorescence resonance energy\
+        \ transfer.\n]]></description>\n<dc:creator>Heil, C. S.</dc:creator>\n<dc:creator>Rittner,\
+        \ A.</dc:creator>\n<dc:creator>Goebel, B.</dc:creator>\n<dc:creator>Beyer,\
+        \ D.</dc:creator>\n<dc:creator>Grininger, M.</dc:creator>\n<dc:date>2018-03-14</dc:date>\n\
+        <dc:identifier>doi:10.1101/282525</dc:identifier>\n<dc:title><![CDATA[Site-Specific\
+        \ Labelling of Multidomain Proteins by Amber Codon Suppression]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-14</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/281535v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMeasuring Endoplasmic Reticulum Signal Sequences Translocation\
+        \ Efficiency Using the Xbp1 Arrest Peptide \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/281535v1?rss=1\n\
+        </link>\n<description><![CDATA[\nSecretory proteins translocate across the\
+        \ mammalian ER membrane co-translationally via the ribosome-sec61 translocation\
+        \ channel complex. Signal sequences within the polypeptide, which guide this\
+        \ event, are diverse in their hydrophobicity, charge, length, and amino acid\
+        \ composition. Despite the known sequence diversity in the ER-targeting signals,\
+        \ it is generally assumed that they have a dominant role in determining co-translational\
+        \ targeting and translocation initiation process. We have analyzed co-translational\
+        \ events experienced by secretory proteins carrying efficient, versus inefficient\
+        \ (poorly hydrophobic) signal sequences, using an assay based on Xbp1 peptide-mediated\
+        \ translational arrest. With this method we were able to measure the functional\
+        \ efficiency of ER signal sequences. We show that an efficient signal sequence\
+        \ experiences a two-phases event in which the nascent chain is pulled from\
+        \ the ribosome during its translocation, thus resuming translation and yielding\
+        \ full-length products. Conversely, the inefficient signal sequence experiences\
+        \ a single weaker pulling event, suggesting inadequate engagement by the translocation\
+        \ machinery of these marginally hydrophobic signal sequences.\n]]></description>\n\
+        <dc:creator>Kriegler, T.</dc:creator>\n<dc:creator>Magoulopoulou, A.</dc:creator>\n\
+        <dc:creator>Amate Marchal, R.</dc:creator>\n<dc:creator>Hessa, T.</dc:creator>\n\
+        <dc:date>2018-03-14</dc:date>\n<dc:identifier>doi:10.1101/281535</dc:identifier>\n\
+        <dc:title><![CDATA[Measuring Endoplasmic Reticulum Signal Sequences Translocation\
+        \ Efficiency Using the Xbp1 Arrest Peptide]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-14</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/280503v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nElectron cryo-microscopy structure of the canonical\
+        \ TRPC4 ion channel \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/280503v1?rss=1\n\
+        </link>\n<description><![CDATA[\nCanonical transient receptor channels (TRPC)\
+        \ are non-selective cation channels. They are involved in receptor-operated\
+        \ Ca2+ signaling and have been proposed to act as store-operated channels\
+        \ (SOC). Their malfunction is related to cardiomyopathies and their modulation\
+        \ by small molecules has been shown to be effective against renal cancer cells.\
+        \ The molecular mechanism underlying the complex activation and regulation\
+        \ is poorly understood. Here, we report the electron cryo-microscopy structure\
+        \ of zebrafish TRPC4 in its unliganded (apo), closed state at an overall resolution\
+        \ of 0.36 nm. The structure reveals the molecular architecture of the cation\
+        \ conducting pore, including the selectivity filter and lower gate. The cytoplasmic\
+        \ domain contains two key hubs that have been shown to interact with modulating\
+        \ proteins. Structural comparisons with other TRP channels give novel insights\
+        \ into the general architecture and domain organization of this superfamily\
+        \ of channels and help to understand their function and pharmacology.\n]]></description>\n\
+        <dc:creator>Vinayagam, D.</dc:creator>\n<dc:creator>Mager, T.</dc:creator>\n\
+        <dc:creator>Apelbaum, A.</dc:creator>\n<dc:creator>Bothe, A.</dc:creator>\n\
+        <dc:creator>Merino, F.</dc:creator>\n<dc:creator>Hofnagel, O.</dc:creator>\n\
+        <dc:creator>Gatsogiannis, C.</dc:creator>\n<dc:creator>Raunser, S.</dc:creator>\n\
+        <dc:date>2018-03-14</dc:date>\n<dc:identifier>doi:10.1101/280503</dc:identifier>\n\
+        <dc:title><![CDATA[Electron cryo-microscopy structure of the canonical TRPC4\
+        \ ion channel]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-14</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/281220v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSerum glycoprotein biomarker validation for esophageal\
+        \ adenocarcinoma and application to Barrett's surveillance \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/281220v1?rss=1\n</link>\n<description><![CDATA[\n\
+        BACKGROUND & AIMS: Esophageal adenocarcinoma (EAC) is thought to develop from\
+        \ asymptomatic Barrett's esophagus (BE) with a low annual rate of conversion.\
+        \ Current endoscopy surveillance for BE patients is probably not cost-effective.\
+        \ Previously, we discovered serum glycoprotein biomarker candidates which\
+        \ could discriminate BE patients from EAC. Here, we aimed to validate candidate\
+        \ serum glycoprotein biomarkers in independent cohorts, and to develop a biomarker\
+        \ panel for BE surveillance. METHODS: Serum glycoprotein biomarker candidates\
+        \ were measured in 301 serum samples collected from Australia (4 states) and\
+        \ USA (1 clinic) using lectin magnetic bead array (LeMBA) coupled multiple\
+        \ reaction monitoring mass spectrometry (MRM-MS). The area under receiver\
+        \ operating characteristic curve was calculated as a measure of discrimination,\
+        \ and multivariate recursive partitioning was used to formulate a multi-marker\
+        \ panel for BE surveillance. RESULTS: Different glycoforms of complement C9\
+        \ (C9), gelsolin (GSN), serum paraoxonase/arylesterase 1 (PON1) and serum\
+        \ paraoxonase/lactonase 3 (PON3) were validated as diagnostic glycoprotein\
+        \ biomarker candidates for EAC across both cohorts. A panel of 10 serum glycoproteins\
+        \ accurately discriminated BE patients not requiring intervention [BE+/- low\
+        \ grade dysplasia] from those requiring intervention [BE with high grade dysplasia\
+        \ (BE-HGD) or EAC]. Tissue expression of C9 was found to be induced in BE,\
+        \ dysplastic BE and EAC. In longitudinal samples from subjects that have progressed\
+        \ towards EAC, levels of serum C9 glycoforms were increased with disease progression.\
+        \ CONCLUSIONS: Further prospective clinical validation of the confirmed biomarker\
+        \ candidates in a large cohort is warranted. A first-line BE surveillance\
+        \ blood test may be developed based on these findings.\n]]></description>\n\
+        <dc:creator>Shah, A. K.</dc:creator>\n<dc:creator>Hartel, G.</dc:creator>\n\
+        <dc:creator>Brown, I.</dc:creator>\n<dc:creator>Winterford, C.</dc:creator>\n\
+        <dc:creator>Na, R.</dc:creator>\n<dc:creator>Le Cao, K.-A.</dc:creator>\n\
+        <dc:creator>Spicer, B. A.</dc:creator>\n<dc:creator>Dunstone, M.</dc:creator>\n\
+        <dc:creator>Phillips, W. A.</dc:creator>\n<dc:creator>Lord, R. V.</dc:creator>\n\
+        <dc:creator>Barbour, A. P.</dc:creator>\n<dc:creator>Watson, D. I.</dc:creator>\n\
+        <dc:creator>Joshi, V.</dc:creator>\n<dc:creator>Whiteman, D. C.</dc:creator>\n\
+        <dc:creator>Hill, M. M.</dc:creator>\n<dc:date>2018-03-13</dc:date>\n<dc:identifier>doi:10.1101/281220</dc:identifier>\n\
+        <dc:title><![CDATA[Serum glycoprotein biomarker validation for esophageal\
+        \ adenocarcinoma and application to Barrett's surveillance]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-13</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/280248v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMolecular Dynamics Simulations of the FtsZ mutant G105S\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/280248v1?rss=1\n\
+        </link>\n<description><![CDATA[\nIn our previous studies we simulated FtsZ\
+        \ monomer and dimer in different nucleotide binding states. In our simulations,\
+        \ we had used the E.coli FtsZ homology model including the FtsZ Intrinsically\
+        \ Disordered Region (IDR). Our simulations revealed that FtsZ dynamics involves\
+        \ a key stage in which GTP binds to monomeric FtsZ and opens its nucleotide\
+        \ binding site which in turn favours polymerization. During dimerization,\
+        \ the C-terminal of the top monomer rotates considerably towards the bottom\
+        \ monomer. Such a rotation of the C-terminal domain leads to capture of the\
+        \ nucleotide by its N-terminal domain. In this study we simulate the FtsZ\
+        \ G105S mutant to see if it may have ATPase activity which was reported in\
+        \ a previous study.\n]]></description>\n<dc:creator>Muthukumar, V.</dc:creator>\n\
+        <dc:date>2018-03-11</dc:date>\n<dc:identifier>doi:10.1101/280248</dc:identifier>\n\
+        <dc:title><![CDATA[Molecular Dynamics Simulations of the FtsZ mutant G105S]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-11</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/280222v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMolecular Dynamics Simulation of the E. coli FtsZ \n\
+        ]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/280222v1?rss=1\n\
+        </link>\n<description><![CDATA[\nPrevious molecular dynamics studies of the\
+        \ FtsZ protein revealed that the protein has high intrinsic flexibility which\
+        \ the crystal structures were unable to reveal. The initial configuration\
+        \ in these studies was based on the available crystal structure data and therefore,\
+        \ the effect of the C-terminal Intrinsically Disordered Region (IDR) of FtsZ\
+        \ could not be observed in these previous studies. Recent investigations have\
+        \ revealed that the C-terminal IDR is crucial for FtsZ assembly in vitro and\
+        \ Z ring formation in vivo. Therefore, in this study, we simulate FtsZ with\
+        \ the IDR. Simulations of the FtsZ monomer in different nucleotide bound forms\
+        \ (without nucleotide, GTP, GDP) were performed. In the conformations of FtsZ\
+        \ monomer with GTP, GTP binds variably with the protein. Such variable interaction\
+        \ with the monomer has not been observed in any previous simulation studies\
+        \ of FtsZ and not observed in crystal structures. The central helix bends\
+        \ towards the C-terminal domain in the GTP bound form, thus making way for\
+        \ polymerization. Nucleotide dependent small shift/rotation of the C-terminal\
+        \ domain was observed in average structures.\n]]></description>\n<dc:creator>Muthukumar,\
+        \ V.</dc:creator>\n<dc:date>2018-03-11</dc:date>\n<dc:identifier>doi:10.1101/280222</dc:identifier>\n\
+        <dc:title><![CDATA[Molecular Dynamics Simulation of the E. coli FtsZ]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-11</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/280230v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMolecular Dynamics simulation of the E. coli FtsZ dimer\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/280230v1?rss=1\n\
+        </link>\n<description><![CDATA[\nFtsZ dimer was studied to gain insights into\
+        \ FtsZ protofilament formation. In a previous simulation study of the M. janaschii\
+        \ dimer it was found that the monomer-monomer contacts in the GDP bound dimer\
+        \ is lower which results in the high curvature of the GDP bound protofilaments.\
+        \ In this study, we have simulated the E. coli FtsZ dimer. The initial structure\
+        \ was obtained from our previous study in which we had simulated the E. coli\
+        \ FtsZ monomer with its C-terminal IDR (Intrinsically Disordered region) built\
+        \ by homology modelling. The M. janaschii FtsZ dimer subunit contacts were\
+        \ used in the initial configuration. Simulations of the dimer were performed\
+        \ with GTP, GDP and ATP. We observed that the C-terminal domain rotates considerably\
+        \ during dimerization. We also observed the different dynamics of the GTP,\
+        \ GDP and ATP bound dimers due to which assembly into straight protofilaments\
+        \ is favoured only in the presence of GTP.\n]]></description>\n<dc:creator>Muthukumar,\
+        \ V.</dc:creator>\n<dc:date>2018-03-11</dc:date>\n<dc:identifier>doi:10.1101/280230</dc:identifier>\n\
+        <dc:title><![CDATA[Molecular Dynamics simulation of the E. coli FtsZ dimer]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-11</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/279216v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nExtraction of a recombinant full-length NADPH-cytochrome\
+        \ P450 oxidoreductase from bacterial membranes: effect of detergents and additives\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/279216v1?rss=1\n\
+        </link>\n<description><![CDATA[\nNADPH-cytochrome P450 oxidoreductase (POR)\
+        \ is a membrane protein in the endoplasmic reticulum of eukaryotic cells.\
+        \ POR is as a key reducing partner for a number of cytochrome P450 proteins\
+        \ involved in different metabolic degradation and signaling pathways. Preparation\
+        \ of the full-length recombinant POR expressed in bacteria has been reported\
+        \ and, typically, involved the use of Triton X-100 detergent for extraction\
+        \ of the overexpressed POR from bacterial membranes. However, extraction efficiency\
+        \ is always relatively low hindering structural studies, particularly-the\
+        \ NMR spectroscopy requiring isotopic enrichment. In this paper, we assessed\
+        \ the effect of a variety of detergents and additives on the efficiency of\
+        \ the membrane-extraction step in POR preparation protocol. We evaluated non-ionic\
+        \ detergents with the variable hydrophobicity (Triton X-100, X-114, and X-405)\
+        \ and structure (Triton X-100, TWEEN-20, Brij-35), a zwitterionic/non-ionic\
+        \ detergent combination (Triton X-100 and CHAPS), as well as a range of alkylamines\
+        \ and polyamines as additives to the conventional extraction buffer containing\
+        \ Triton X-100. None of the detergents or detergent-additive combinations\
+        \ yielded better extraction efficiency than the conventional protocol with\
+        \ the Triton X-100. Lack of variation of the extraction yield allows to hypothesize\
+        \ that the conventional protocol extracts all of the available natively-folded\
+        \ monomeric POR while the remaining fraction is possibly an unfolded aggregated\
+        \ POR, which did not insert in the membranes during expression. We propose\
+        \ that the yield of soluble POR may be increased by a careful optimization\
+        \ of expression conditions while monitoring the distribution of POR between\
+        \ soluble and insoluble fractions in the detergent extraction step.\n]]></description>\n\
+        <dc:creator>Arafeh, S.</dc:creator>\n<dc:creator>Galiakhmetov, A.</dc:creator>\n\
+        <dc:creator>Kovrigina, E.</dc:creator>\n<dc:creator>Fellin, E.</dc:creator>\n\
+        <dc:creator>Kovrigin, E.</dc:creator>\n<dc:date>2018-03-08</dc:date>\n<dc:identifier>doi:10.1101/279216</dc:identifier>\n\
+        <dc:title><![CDATA[Extraction of a recombinant full-length NADPH-cytochrome\
+        \ P450 oxidoreductase from bacterial membranes: effect of detergents and additives]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-08</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/278093v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nInhibition of acetyl-CoA carboxylase by spirotetramat\
+        \ causes lipid depletion and surface coat deficiency in nematodes \n]]>\n\
+        </title>\n<link>\nhttp://biorxiv.org/cgi/content/short/278093v1?rss=1\n</link>\n\
+        <description><![CDATA[\nPlant-parasitic nematodes pose a significant threat\
+        \ to agriculture causing annual yield losses worth more than 100 billion US$.\
+        \ Nematode control often involves the use of nematicides, but many of them\
+        \ including non-selective fumigants have been phased out, particularly due\
+        \ to ecotoxicological concerns. Thus new control strategies are urgently needed.\
+        \ Spirotetramat (SPT) is used as phloem-moble systemic insecticide targeting\
+        \ acetyl-CoA carboxylase (ACC) of pest insects and mites upon foliar application.\
+        \ Our studies revealed that SPT known to be activated in planta to SPT-enol\
+        \ acts as a developmental inhibitor of the free-living nematode Caenorhabditis\
+        \ elegans and the plant-parasitic nematode Heterodera schachtii. Exposure\
+        \ to SPT-enol leads to larval arrest and disruption of the life cycle. Furthermore,\
+        \ SPT-enol inhibits nematode ACC activity, affects storage lipids, fatty acid\
+        \ composition and disrupts surface coat synthesis. Silencing of H. schachtii\
+        \ ACC by RNAi induced similar phenotypes and thus mimics the effects of SPT-enol,\
+        \ supporting the conclusion that SPT-enol acts on nematodes by inhibiting\
+        \ ACC. Our studies demonstrated that the inhibition of de novo lipid biosynthesis\
+        \ by interfering with nematode ACC is a new nematicidal mode of action addressed\
+        \ by spirotetramat, a well-known systemic insecticide for sucking pest control.\n\
+        ]]></description>\n<dc:creator>Gutbrod, P.</dc:creator>\n<dc:creator>Gutbrod,\
+        \ K.</dc:creator>\n<dc:creator>Nauen, R.</dc:creator>\n<dc:creator>Elashry,\
+        \ A.</dc:creator>\n<dc:creator>Siddique, S.</dc:creator>\n<dc:creator>Benting,\
+        \ J.</dc:creator>\n<dc:creator>Doermann, P.</dc:creator>\n<dc:creator>Grundler,\
+        \ F. M. W.</dc:creator>\n<dc:date>2018-03-07</dc:date>\n<dc:identifier>doi:10.1101/278093</dc:identifier>\n\
+        <dc:title><![CDATA[Inhibition of acetyl-CoA carboxylase by spirotetramat causes\
+        \ lipid depletion and surface coat deficiency in nematodes]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-07</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/277822v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nComprehensive peptide quantification for data independent\
+        \ acquisition mass spectrometry using chromatogram libraries \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/277822v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Data independent acquisition (DIA) mass spectrometry is a powerful technique\
+        \ that is improving the reproducibility and throughput of proteomics studies.\
+        \ We introduce a new experimental workflow that uses this technique to construct\
+        \ chromatogram libraries that capture fragment ion chromatographic peak shape\
+        \ and retention time for every detectable peptide in an experiment. These\
+        \ coordinates calibrate information in spectrum libraries or protein databases\
+        \ to a specific mass spectrometer and chromatography setup, and enable sensitive\
+        \ peptide detection in quantitative experiments. We also present EncyclopeDIA,\
+        \ a software tool for generating and searching chromatogram libraries, and\
+        \ demonstrate the performance of our workflow by quantifying proteins in human\
+        \ and yeast cells. We find that by exploiting calibrated retention time and\
+        \ fragmentation specificity in chromatogram libraries, EncyclopeDIA can detect\
+        \ and quantify >50% more peptides from DIA experiments than with DDA- based\
+        \ spectrum libraries alone.\n]]></description>\n<dc:creator>Searle, B. C.</dc:creator>\n\
+        <dc:creator>Pino, L. K.</dc:creator>\n<dc:creator>Egertson, J. D.</dc:creator>\n\
+        <dc:creator>Ting, Y. S.</dc:creator>\n<dc:creator>Lawrence, R. T.</dc:creator>\n\
+        <dc:creator>Villen, J.</dc:creator>\n<dc:creator>MacCoss, M. J.</dc:creator>\n\
+        <dc:date>2018-03-07</dc:date>\n<dc:identifier>doi:10.1101/277822</dc:identifier>\n\
+        <dc:title><![CDATA[Comprehensive peptide quantification for data independent\
+        \ acquisition mass spectrometry using chromatogram libraries]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-07</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/278119v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSpontaneous emergence of self-replication in chemical\
+        \ reaction systems \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/278119v1?rss=1\n\
+        </link>\n<description><![CDATA[\nExplaining origins of life requires us to\
+        \ explain how self-replication arises. Specifically, how can self-replicating\
+        \ entities develop spontaneously from chemical reaction systems in which no\
+        \ reaction is self-replicating? Previously proposed mathematical models either\
+        \ supply a framework for a minimal living system or only consider catalyzed\
+        \ reactions, and thus fail to provide a comprehensive theory. We set up a\
+        \ general model for chemical reaction systems that properly accounts for energetics,\
+        \ kinetics and conservation laws. We find that (1) some systems are collectively-catalytic\
+        \ (e.g., the citric acid cycle), while some others self-replicate as a whole\
+        \ (e.g., the formose reaction); (2) side reactions do not always inhibit such\
+        \ systems; (3) many alternative chemical universes often contain one or more\
+        \ such systems; (4) it is possible to construct a self-replicating system\
+        \ where the entropy of some parts spontaneously decreases, in a manner similar\
+        \ to that discussed by Schrodinger; (5) complex self-replicating molecules\
+        \ can emerge spontaneously and relatively easily from simple chemical reaction\
+        \ systems through a sequence of transitions. Together these results start\
+        \ to explain the origins of prebiotic evolution.\n]]></description>\n<dc:creator>Liu,\
+        \ Y.</dc:creator>\n<dc:creator>Sumpter, D. J. T.</dc:creator>\n<dc:date>2018-03-07</dc:date>\n\
+        <dc:identifier>doi:10.1101/278119</dc:identifier>\n<dc:title><![CDATA[Spontaneous\
+        \ emergence of self-replication in chemical reaction systems]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-07</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/277053v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nNear-Infrared Spectroscopy for metabolite quantification\
+        \ and species identification \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/277053v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe aim of the study was to investigate the\
+        \ accuracy of near-infrared spectroscopy (NIRS) in determining triglyceride\
+        \ level and species of wild caught Drosophila. NIRS is a remote sensing method\
+        \ that uses the near-infrared region of the electromagnetic spectrum. It detects\
+        \ the absorption of light by molecular bonds and can be used with live insects.\
+        \ We employ the chemometric approach to combine spectra and reference data\
+        \ from a known sample to produce a multivariate calibration model. Once the\
+        \ calibration model was developed, we used an independent set to validate\
+        \ the accuracy of the calibration model. The optimized calibration model for\
+        \ triglyceride quantification yielded an accuracy of 73%. Simultaneously,\
+        \ we used NIRS to discriminate two species of Drosophila. Flies from independent\
+        \ sets were correctly classified into D. melanogaster and D. simulans with\
+        \ accuracy higher than 80%. Finally, we show that the biological interpretations\
+        \ derived from reference data and the NIRS predictions do not differ. These\
+        \ results suggest that NIRS has the potential to be used as a high throughput\
+        \ screening method to assess a live individual insect's triglyceride level\
+        \ and taxonomic status.\n]]></description>\n<dc:creator>Aw, W. C.</dc:creator>\n\
+        <dc:creator>Ballard, J. W. O.</dc:creator>\n<dc:date>2018-03-06</dc:date>\n\
+        <dc:identifier>doi:10.1101/277053</dc:identifier>\n<dc:title><![CDATA[Near-Infrared\
+        \ Spectroscopy for metabolite quantification and species identification]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-06</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/274910v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nCritical comparison of ultracentrifugation and a commercial\
+        \ kit for isolation of exosomes derived from glioblastoma and breast cancer\
+        \ cell lines \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/274910v1?rss=1\n\
+        </link>\n<description><![CDATA[\nExosomes are small extracellular vesicles\
+        \ around 30-100 nm in diameter that are secreted from cells and can be found\
+        \ in most body fluids. Exosomes can be a vital source of biomarkers as they\
+        \ contain various substances (e.g. lipids, RNAs, metabolites and proteins)\
+        \ that can reflect the cell of origin (e.g. cancer cells). For isolation of\
+        \ exosomes present in biological matrices, ultracentrifugation (UC)-based\
+        \ procedures are most common. Other approaches exist, including commercial\
+        \ kits developed for easy and low sample volume isolation. In this study,\
+        \ differential UC and an isolation kit from a major vendor (Total Exosome\
+        \ Isolation Reagent from Thermo Fisher Scientific) were compared. Exosomes\
+        \ were isolated from cell culture media of two different cell sources (patient\
+        \ derived cells from glioblastoma multiforme and the breast cancer cell line\
+        \ MDA-MB-231). For both isolation methods, transmission electron microscopy,\
+        \ dynamic light scattering and western blotting indicated the presence of\
+        \ exosomes. The kit- and UC isolates contained similar amounts of protein\
+        \ measured by the bicinchoninic acid (BCA) assay with absorbance at 562 nm.\
+        \ Using western blot, positive exosome markers were identified in all isolates,\
+        \ and additional exosome markers were identified using MS-based proteomics.\
+        \ For the glioblastoma exosome isolates, the number of proteins identified\
+        \ with liquid chromatography tandem MS (LC-MS/MS) was higher for the UC isolates\
+        \ than the kit isolates when injecting equal protein amounts, contrary to\
+        \ that for the breast cancer exosome isolates. However, negative exosome markers\
+        \ were also found in glioblastoma isolates using LC-MS/MS. Thus, we would\
+        \ not use the term -exosome isolation- as impurities may be present with both\
+        \ isolation methods. Notably, potential biomarkers for both diseases were\
+        \ identified in the isolates using LS-MS/MS. In our opinion, the two isolation\
+        \ methods had rather similar performance, although with some minor differences\
+        \ based on cell of origin.\n]]></description>\n<dc:creator>Bekhradnia, S.</dc:creator>\n\
+        <dc:creator>Lund, K.</dc:creator>\n<dc:creator>Bjorseth, K.</dc:creator>\n\
+        <dc:creator>Skottvoll, F. S.</dc:creator>\n<dc:creator>Sjaanes Berg, H.</dc:creator>\n\
+        <dc:creator>Roos, N.</dc:creator>\n<dc:creator>Thiede, B.</dc:creator>\n<dc:creator>Nystrom,\
+        \ B.</dc:creator>\n<dc:creator>Roberg-Larsen, H.</dc:creator>\n<dc:creator>Lundanes,\
+        \ E.</dc:creator>\n<dc:creator>Wilson, S. R.</dc:creator>\n<dc:date>2018-03-02</dc:date>\n\
+        <dc:identifier>doi:10.1101/274910</dc:identifier>\n<dc:title><![CDATA[Critical\
+        \ comparison of ultracentrifugation and a commercial kit for isolation of\
+        \ exosomes derived from glioblastoma and breast cancer cell lines]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-02</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/274688v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMethylSight: Taking a wider view of lysine methylation\
+        \ through computer-aided discovery to provide insight into the human methyl-lysine\
+        \ proteome \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/274688v1?rss=1\n\
+        </link>\n<description><![CDATA[\nPost-translational lysine methylation has\
+        \ been found to play a fundamental role in the regulation of protein function\
+        \ and the transmission of biological signals. We present the development of\
+        \ a machine learning model for predicting lysine methylation sites among human\
+        \ proteins. The model uses fully-alignment-free features encoding sequence-based\
+        \ information. A total of 57 novel predicted histone methylation sites were\
+        \ selected for evaluation by targeted mass spectrometry, with 51 sites positively\
+        \ re-assigned as true methylated sites, while one site was also found to be\
+        \ dynamically responsive to DNA damage. To gain insight into the cellular\
+        \ function of the lysine methylation system, we reveal links between cellular\
+        \ metabolic and GTPase signal transduction, demonstrating a dynamic hypoxia-responsive\
+        \ methylation of the inducible nitric oxide synthase (NOS2). With the growing\
+        \ implication of lysine methylation in human health and disease, the development\
+        \ of methods that help to target its discovery will become of critical importance\
+        \ to understanding its biological implications.\n]]></description>\n<dc:creator>Biggar,\
+        \ K. K.</dc:creator>\n<dc:creator>Ruiz-Blanco, Y. B.</dc:creator>\n<dc:creator>Charih,\
+        \ F.</dc:creator>\n<dc:creator>Fang, Q.</dc:creator>\n<dc:creator>Connolly,\
+        \ J.</dc:creator>\n<dc:creator>Frensemier, K.</dc:creator>\n<dc:creator>Adhikary,\
+        \ H.</dc:creator>\n<dc:creator>Li, S. S. C.</dc:creator>\n<dc:creator>Green,\
+        \ J. R.</dc:creator>\n<dc:date>2018-03-02</dc:date>\n<dc:identifier>doi:10.1101/274688</dc:identifier>\n\
+        <dc:title><![CDATA[MethylSight: Taking a wider view of lysine methylation\
+        \ through computer-aided discovery to provide insight into the human methyl-lysine\
+        \ proteome]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-02</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/274191v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nThe Shape of the Ribosome Exit Tunnel Affects Cotranslational\
+        \ Protein Folding \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/274191v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe Escherichia coli ribosome exit tunnel\
+        \ can accommodate small folded proteins, while larger ones tend to fold outside.\
+        \ It remains unclear, however, to what extent the geometry of the tunnel influences\
+        \ protein folding. Here, using ribosomes with deletions in proteins uL23 and\
+        \ uL24, we investigate how tunnel geometry determines where proteins of different\
+        \ sizes fold. We find that a 29-residue zinc-finger domain folding close to\
+        \ the uL23 loop in wildtype ribosomes folds deeper in the tunnel in uL23 {Delta}loop\
+        \ (but not in uL24 {Delta}loop) ribosomes, while two ~100-residue domains\
+        \ that fold close to the uL24 loop near the tunnel exit in wildtype ribosomes\
+        \ fold at deeper locations in uL24 {Delta}loop (but not in uL23 {Delta}loop)\
+        \ ribosomes. These results provide strong support to the idea that cotranslational\
+        \ folding commences once a protein domain reaches a location in the exit tunnel\
+        \ where there is sufficient space to house the folded structure.\n]]></description>\n\
+        <dc:creator>Kudva, R.</dc:creator>\n<dc:creator>Pardo-Avila, F.</dc:creator>\n\
+        <dc:creator>Sandhu, H.</dc:creator>\n<dc:creator>Carroni, M.</dc:creator>\n\
+        <dc:creator>Bernstein, H. D.</dc:creator>\n<dc:creator>Von Heijne, G.</dc:creator>\n\
+        <dc:date>2018-03-01</dc:date>\n<dc:identifier>doi:10.1101/274191</dc:identifier>\n\
+        <dc:title><![CDATA[The Shape of the Ribosome Exit Tunnel Affects Cotranslational\
+        \ Protein Folding]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-01</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/273516v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nDeep mutational analysis reveals functional trade-offs\
+        \ in the sequences of EGFR autophosphorylation sites \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/273516v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Upon activation, the epidermal growth factor receptor (EGFR) phosphorylates\
+        \ tyrosine residues in its cytoplasmic tail, which triggers the binding of\
+        \ Src Homology 2 (SH2) and Phosphotyrosine Binding (PTB) domains and initiates\
+        \ downstream signaling. The sequences flanking the tyrosine residues (referred\
+        \ to as phosphosites) must be compatible with phosphorylation by the EGFR\
+        \ kinase domain and the recruitment of adapter proteins, while minimizing\
+        \ phosphorylation that would reduce the fidelity of signal transmission. In\
+        \ order to understand how phosphosite sequences encode these functions within\
+        \ a small set of residues, we carried out high-throughput mutational analysis\
+        \ of three phosphosite sequences in the EGFR tail. We used bacterial surface-display\
+        \ of peptides, coupled with deep sequencing, to monitor phosphorylation efficiency\
+        \ and the binding of the SH2 and PTB domains of the adapter proteins Grb2\
+        \ and Shc1, respectively. We found that the sequences of phosphosites in the\
+        \ EGFR tail are restricted to a subset of the range of sequences that can\
+        \ be phosphorylated efficiently by EGFR. Although efficient phosphorylation\
+        \ by EGFR can occur with either acidic or large hydrophobic residues at the\
+        \ -1 position with respect to the tyrosine, hydrophobic residues are generally\
+        \ excluded from this position in tail sequences. The mutational data suggest\
+        \ that this restriction results in weaker binding to adapter proteins, but\
+        \ also disfavors phosphorylation by the cytoplasmic tyrosine kinases c-Src\
+        \ and c-Abl. Our results show how EGFR-family phosphosites achieve a trade-off\
+        \ between minimizing off-pathway phosphorylation while maintaining the ability\
+        \ to recruit the diverse complement of effectors required for downstream pathway\
+        \ activation.\n]]></description>\n<dc:creator>Cantor, A. J.</dc:creator>\n\
+        <dc:creator>Shah, N. H.</dc:creator>\n<dc:creator>Kuriyan, J.</dc:creator>\n\
+        <dc:date>2018-02-28</dc:date>\n<dc:identifier>doi:10.1101/273516</dc:identifier>\n\
+        <dc:title><![CDATA[Deep mutational analysis reveals functional trade-offs\
+        \ in the sequences of EGFR autophosphorylation sites]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-02-28</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/273078v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nFemtomolar and selective dopamine detection by a gold\
+        \ nanoparticle enhanced surface plasmon resonance aptasensor \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/273078v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Ultrasensitive and selective detection and quantification of dopamine (DA)\
+        \ plays a key role in monitoring neurodegenerative diseases. However, the\
+        \ detection limit reported for DA detection is typically in the lower nM range.\
+        \ Pushing the detection limit to pM or lower for this particular target to\
+        \ cover the physiological levels (< 130 pM) is significant. Herein, DA DNA\
+        \ aptamer (DAAPT) gold nanoparticle (AuNP) conjugate is utilized to enhance\
+        \ the surface plasmon resonance (SPR) signal, which enables to detect and\
+        \ quantify DA in the femtomolar (200 fM) to picomolar range. To the best of\
+        \ our knowledge, this is the lowest detection limit achieved for SPR sensing\
+        \ of dopamine. The as-prepared 10 nm DAAPT-AuNP conjugate demonstrates strong\
+        \ binding affinity (Kd = 3.1 nM) to the complementary DNA (cDNA) probe on\
+        \ gold chip. The cDNA probe is immobilized to the chip via polydopamine surface\
+        \ chemistry, which allows the Michael addition of any primary amine-terminated\
+        \ biomolecules. By adjusting the concentration of the DAAPT-AuNP conjugate,\
+        \ two calibration curves are generated with dynamic ranges from 100 M to 2\
+        \ mM, and from 200 fM to 20 nM, respectively. Both calibration curves have\
+        \ negative slopes, showing good agreement to a dose-response curve in an enzyme\
+        \ inhibition assay. In addition, the sensing strategy is evaluated to be specific\
+        \ for DA detection using a series of DA analogs and other metabolites as potential\
+        \ interferences.\n]]></description>\n<dc:creator>Cao, Y.</dc:creator>\n<dc:creator>McDermott,\
+        \ M. T.</dc:creator>\n<dc:date>2018-02-28</dc:date>\n<dc:identifier>doi:10.1101/273078</dc:identifier>\n\
+        <dc:title><![CDATA[Femtomolar and selective dopamine detection by a gold nanoparticle\
+        \ enhanced surface plasmon resonance aptasensor]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-02-28</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/271593v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nStructural basis of human 5,10-methylenetetrahydrofolate\
+        \ reductase (MTHFR) regulation by phosphorylation and S-adenosylmethionine\
+        \ inhibition \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/271593v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe folate and methionine cycles are crucial\
+        \ to the biosynthesis of lipids, nucleotides and proteins, and production\
+        \ of the global methyl donor S-adenosylmethionine (SAM). 5,10-methylenetetrahydrofolate\
+        \ reductase (MTHFR) represents a key regulatory connection between these cycles,\
+        \ generating 5-methyltetrahydrofolate for initiation of the methionine cycle,\
+        \ and undergoing allosteric inhibition by its end product SAM. Our 2.5 [A]\
+        \ resolution crystal structure of human MTHFR reveals a unique architecture,\
+        \ appending the well-conserved catalytic TIM-barrel to a eukaryote-only SAM-binding\
+        \ domain. The latter domain of novel fold provides the predominant interface\
+        \ for MTHFR homo-dimerization, positioning the N-terminal serine-rich phosphorylation\
+        \ region into proximity with the C-terminal SAM-binding domain. This explains\
+        \ how MTHFR phosphorylation, identified on 11 N-terminal residues (16-total),\
+        \ increases sensitivity to SAM binding and inhibition. Finally, we demonstrate\
+        \ the 25-amino-acid inter-domain linker enables conformational plasticity\
+        \ and propose it to be a key mediator of SAM regulation.\n]]></description>\n\
+        <dc:creator>Froese, D. S.</dc:creator>\n<dc:creator>Kopec, J.</dc:creator>\n\
+        <dc:creator>Rembeza, E.</dc:creator>\n<dc:creator>Bezerra, G. A.</dc:creator>\n\
+        <dc:creator>Oberholzer, A.</dc:creator>\n<dc:creator>Suormala, T.</dc:creator>\n\
+        <dc:creator>Lutz, S.</dc:creator>\n<dc:creator>Chalk, R.</dc:creator>\n<dc:creator>Borkowska,\
+        \ O.</dc:creator>\n<dc:creator>Baumgartner, M.</dc:creator>\n<dc:creator>Yue,\
+        \ W.</dc:creator>\n<dc:date>2018-02-26</dc:date>\n<dc:identifier>doi:10.1101/271593</dc:identifier>\n\
+        <dc:title><![CDATA[Structural basis of human 5,10-methylenetetrahydrofolate\
+        \ reductase (MTHFR) regulation by phosphorylation and S-adenosylmethionine\
+        \ inhibition]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-02-26</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/270454v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nQuantitative solid-phase assay to measure deoxynucleoside\
+        \ triphosphate pools \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/270454v1?rss=1\n\
+        </link>\n<description><![CDATA[\nDeoxyribonucleoside triphosphates (dNTPs)\
+        \ are the reduced nucleotides used as the building blocks and energy source\
+        \ for DNA replication and maintenance in all living systems. They are present\
+        \ in highly regulated amounts and ratios in the cell, and their balance has\
+        \ been implicated in the most important cell processes, from determining the\
+        \ fidelity of DNA replication to affecting cell fate. Furthermore, many cancer\
+        \ drugs target biosynthetic enzymes in dNTP metabolism, and mutations in genes\
+        \ directly or indirectly affecting these pathways are the cause of devastating\
+        \ diseases. The accurate and systematic measurement of these pools is key\
+        \ to understand the mechanisms behind these diseases and their treatment.\
+        \ We present a new method for measuring dNTP pools from biological samples,\
+        \ utilising the current state-of-the-art polymerase method, modified to a\
+        \ solid-phase setting and optimised for larger scale measurements.\n]]></description>\n\
+        <dc:creator>Landoni, J. C.</dc:creator>\n<dc:creator>Wang, L.</dc:creator>\n\
+        <dc:creator>Suomalainen, A.</dc:creator>\n<dc:date>2018-02-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/270454</dc:identifier>\n<dc:title><![CDATA[Quantitative\
+        \ solid-phase assay to measure deoxynucleoside triphosphate pools]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-02-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/269613v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nStructural Capacitance in Protein Evolution and Human\
+        \ Diseases \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/269613v1?rss=1\n\
+        </link>\n<description><![CDATA[\nCanonical mechanisms of protein evolution\
+        \ include the duplication and diversification of pre-existing folds through\
+        \ genetic alterations that include point mutations, insertions, deletions,\
+        \ and copy number amplifications, as well as post-translational modifications\
+        \ that modify processes such as folding efficiency and cellular localization.\
+        \ Following a survey of the human mutation database, we have identified an\
+        \ additional mechanism, that we term 'structural capacitance', which results\
+        \ in the de novo generation of microstructure in previously disordered regions.\
+        \ We suggest that the potential for structural capacitance confers select\
+        \ proteins with the capacity to evolve over rapid timescales, facilitating\
+        \ saltatory evolution as opoposed to exclusively canonical Darwinian mechanisms.\
+        \ Our results implicate the elements of protein microstructure generated by\
+        \ this distinct mechanism in the pathogenesis of a wide variety of human diseases.\
+        \ The benefits of rapidly furnishing the potential for evolutionary change\
+        \ conferred by structural capacitance are consequently counterbalanced by\
+        \ this accompanying risk, with the extent of this determined by the host immune\
+        \ system. The phenomenon of structural capacitance has implications ranging\
+        \ from the ancestral diversification of protein folds to the engineering of\
+        \ synthetic proteins with enhanced evolvability.\n]]></description>\n<dc:creator>Li,\
+        \ C.</dc:creator>\n<dc:creator>Clarke, L. V.</dc:creator>\n<dc:creator>Zhang,\
+        \ R.</dc:creator>\n<dc:creator>Porebski, B. T.</dc:creator>\n<dc:creator>McCoey,\
+        \ J.</dc:creator>\n<dc:creator>Borg, N.</dc:creator>\n<dc:creator>Webb, G.</dc:creator>\n\
+        <dc:creator>Kass, I.</dc:creator>\n<dc:creator>Buckle, M.</dc:creator>\n<dc:creator>Song,\
+        \ J.</dc:creator>\n<dc:creator>Woolfson, A.</dc:creator>\n<dc:creator>Buckle,\
+        \ A.</dc:creator>\n<dc:date>2018-02-22</dc:date>\n<dc:identifier>doi:10.1101/269613</dc:identifier>\n\
+        <dc:title><![CDATA[Structural Capacitance in Protein Evolution and Human Diseases]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-02-22</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n \r\n\r\n\r\n\r\n</rdf:RDF>\r\n"}
+    headers:
+      connection: [Keep-Alive]
+      content-type: [application/xml;")]
+      date: ['Fri, 23 Mar 2018 21:11:33 GMT']
+      keep-alive: ['timeout=30, max=3000']
+      server: [Apache/2.2.15 (Red Hat)]
+      x-powered-by: [PHP/5.4.40]
+    status: {code: 200, message: OK}
+version: 1

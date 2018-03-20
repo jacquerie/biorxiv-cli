@@ -1,0 +1,990 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://connect.biorxiv.org/biorxiv_xml.php?subject=all
+  response:
+    body: {string: !!python/unicode "<rdf:RDF xmlns:admin=\"http://webns.net/mvcb/\"\
+        \ xmlns=\"http://purl.org/rss/1.0/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\
+        \ xmlns:prism=\"http://purl.org/rss/1.0/modules/prism/\" xmlns:taxo=\"http://purl.org/rss/1.0/modules/taxonomy/\"\
+        \ xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\
+        \ xmlns:syn=\"http://purl.org/rss/1.0/modules/syndication/\">\r\n<channel\
+        \ rdf:about=\"http://biorxiv.org\">\r\n<admin:errorReportsTo rdf:resource=\"\
+        mailto:biorxiv@cshlpress.edu\"/>\r\n<title>bioRxiv Subject Collection: All</title>\r\
+        \n<link>http://biorxiv.org</link>\r\n<description>\r\nThis feed contains articles\
+        \ for bioRxiv Subject Collection \"All\"\r\n</description>\r\n\r\n \r\n\r\n\
+        \r\n\r\n<items>\r\n<rdf:Seq>\r\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286609v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287466v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286500v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287821v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287870v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287854v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286195v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286534v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287722v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287490v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287219v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287391v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287839v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287813v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/288019v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/285494v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/288027v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287540v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287136v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286617v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287664v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287482v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/286740v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287441v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287920v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287789v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287987v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287706v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287268v1?rss=1\"\
+        />\n<rdf:li rdf:resource=\"http://biorxiv.org/cgi/content/short/287755v1?rss=1\"\
+        />\n</rdf:Seq>\r\n</items>\r\n<prism:eIssn/>\r\n<prism:publicationName>bioRxiv</prism:publicationName>\r\
+        \n<prism:issn/>\r\n\r\n<image rdf:resource=\"\"/>\r\n</channel>\r\n<image\
+        \ rdf:about=\"\">\r\n<title>bioRxiv</title>\r\n<url/>\r\n<link>http://biorxiv.org</link>\r\
+        \n</image>\r\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286609v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nNeurodynamic explanation of inter-individual and inter-trial\
+        \ variability in cross-modal perception \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286609v1?rss=1\n\
+        </link>\n<description><![CDATA[\nA widely used experimental design in multisensory\
+        \ integration is the McGurk paradigm that entail illusory (cross-modal) perception\
+        \ of speech sounds when presented with incongruent audio-visual (AV) stimuli.\
+        \ However, the distribution of responses across trials and individuals is\
+        \ heterogeneous and not necessarily everyone in a given group of individuals\
+        \ perceives the effect. Nonetheless, existing studies in the field primarily\
+        \ focus on addressing the correlation between subjective behavior and cortical\
+        \ activations to reveal the neuronal mechanisms underlying the perception\
+        \ of McGurk effect, typically in the \"frequent perceivers\". Additionally,\
+        \ a solely neuroimaging approach does not provide mechanistic explanation\
+        \ for the observed inter-trial or inter-individual heterogeneity. In the current\
+        \ study we employ high density electroencephalogram (EEG) recordings in a\
+        \ group of 25 human subjects that allow us to distinguish \"frequent perceivers\"\
+        \ from \"rare perceivers\" using behavioral responses as well as from the\
+        \ perspective of large-scale brain functional connectivity (FC). Using global\
+        \ coherence as a measure of large-scale FC, we find that alpha band coherence,\
+        \ a distinctive feature in frequent perceivers is absent in the rare perceivers.\
+        \ Secondly, a decrease in alpha band coherence and increase in gamma band\
+        \ coherence occur during illusory perception trials in both frequent and rare\
+        \ perceivers. Source analysis followed up with source time series reconstructions\
+        \ reveals a large scale network of brain areas involving frontal, temporal\
+        \ and parietal areas that are involved in network level processing of cross-modal\
+        \ perception. Finally, we demonstrate that how a biophysically realistic computational\
+        \ model representing the interaction among key neuronal systems (visual, auditory\
+        \ and multisensory cortical regions) can explain the empirical observations.\
+        \ Each system involves a group of excitatory and inhibitory Hindmarsh Rose\
+        \ neurons that are coupled amongst each other. Large-scale FC between areas\
+        \ is conceptualized using coupling functions and the identity of a specific\
+        \ system, e.g., visual/ auditory/multisensory is chosen using empirical estimates\
+        \ of the time-scale of information processing in these systems. The model\
+        \ predicts that the disappearance of alpha band coherence observed in rare\
+        \ perceivers stems from a negligible direct A-V (audio-visual) coupling however,\
+        \ an increase in indirect interaction via multisensory node leads to enhanced\
+        \ gamma band and reduced alpha band coherences observed during illusory perception.\
+        \ Overall, we establish the mechanistic basis of large-scale FC patterns underlying\
+        \ cross-modal perception.\n]]></description>\n<dc:creator>Kumar, V. G.</dc:creator>\n\
+        <dc:creator>Dutta, S.</dc:creator>\n<dc:creator>Talwar, S.</dc:creator>\n\
+        <dc:creator>Roy, D.</dc:creator>\n<dc:creator>Banerjee, A.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286609</dc:identifier>\n\
+        <dc:title><![CDATA[Neurodynamic explanation of inter-individual and inter-trial\
+        \ variability in cross-modal perception]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287466v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEarly identity recognition of familiar faces is not\
+        \ dependent on holistic processing \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287466v1?rss=1\n\
+        </link>\n<description><![CDATA[\nIt is widely accepted that holistic processing\
+        \ is critical for early face recognition, but recent work has suggested a\
+        \ larger role for feature-based processing. The earliest step in familiar\
+        \ face recognition is thought to be matching a perceptual representation of\
+        \ a familiar face to a stored representation of that face, which is thought\
+        \ to be indexed by the N250r event-related potential (ERP). In the current\
+        \ face priming studies, we investigated whether this perceptual representation\
+        \ can be effectively activated by feature-based processing. In the first experiment,\
+        \ prime images were familiar whole faces, isolated eyes, or isolated mouths.\
+        \ Whole faces and isolated eyes, but not isolated mouths, effectively modulated\
+        \ the N250r. In the second experiment, prime images were familiar whole faces\
+        \ presented either upright or inverted. Inverted face primes were no less\
+        \ effective than upright face primes in modulating the N250r. Together, the\
+        \ results of these studies indicate that activation of the earliest face recognition\
+        \ processes is not dependent on holistic processing of a typically configured\
+        \ face. Rather, feature-based processing can effectively activate the perceptual\
+        \ memory of a familiar face. However, not all features are effective primes\
+        \ as we found eyes, but not mouths, were effective in activating early face\
+        \ recognition.\n]]></description>\n<dc:creator>Mohr, S.</dc:creator>\n<dc:creator>Wang,\
+        \ A.</dc:creator>\n<dc:creator>Engell, A. D.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287466</dc:identifier>\n<dc:title><![CDATA[Early\
+        \ identity recognition of familiar faces is not dependent on holistic processing]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286500v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA mutation-independent approach via transcriptional\
+        \ upregulation of a disease modifier gene rescues muscular dystrophy in vivo.\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286500v1?rss=1\n\
+        </link>\n<description><![CDATA[\nIdentification of protective and/or pathogenic\
+        \ genetic modifiers provides important insight into the heterogeneity of disease\
+        \ presentations in individuals affected by neuromuscular disorders (NMDs),\
+        \ despite having well-defined pathogenic variants. Targeting modifier genes\
+        \ to improve disease phenotypes could be especially beneficial in cases where\
+        \ the causative genes are large, structurally complex and the mutations are\
+        \ heterogeneous. Here, we report a mutation-independent strategy to upregulate\
+        \ expression of a compensatory disease-modifying gene in Congenital Muscular\
+        \ Dystrophy type 1A (MDC1A) using a CRISPR/dCas9-based transcriptional activation\
+        \ system. MDC1A is caused by nonfunctional Laminin 2, which compromises muscle\
+        \ fibers stability and axon myelination in peripheral nerves. Transgenic overexpression\
+        \ of Lama1, encoding a structurally similar protein Laminin 1, ameliorates\
+        \ muscle wasting and paralysis in the MDC1A mouse models, demonstrating its\
+        \ role as a protective disease modifier. Yet, upregulation of Lama1 as a postnatal\
+        \ gene therapy is hampered by its large size, which exceeds the current genome\
+        \ packaging capacity of clinically relevant delivery vehicles such as adeno-associated\
+        \ viral vectors (AAVs). In this study, we sought to upregulate Lama1 using\
+        \ CRISPR/dCas9-based transcriptional activation system, comprised of catalytically\
+        \ inactive S. aureus Cas9 (dCas9) fused to VP64 transactivation domains and\
+        \ sgRNAs targeting the Lama1 promoter. We first demonstrated robust upregulation\
+        \ of Lama1 in myoblasts, and following AAV9-mediated intramuscular delivery,\
+        \ in skeletal muscles of dy2j/dy2j mouse model of MDC1A. We therefore assessed\
+        \ whether upregulation of Lama1 would yield therapeutic benefits in dy2j/dy2j\
+        \ mice. When the intervention was started early in pre-symptomatic dy2j/dy2j\
+        \ mice, Lama1 upregulation prevented muscle fibrosis and hindlimb paralysis.\
+        \ An important question for future therapeutic approaches for a variety of\
+        \ disorders concerns the therapeutic window and phenotypic reversibility.\
+        \ This is particularly true for muscular dystrophies as it has long been hypothesized\
+        \ that fibrotic changes in skeletal muscle represent an irreversible disease\
+        \ state that would impair any therapeutic intervention at advanced stages\
+        \ of the disease. Here, we demonstrate that dystrophic features and disease\
+        \ progression were significantly improved and partially reversed when the\
+        \ treatment was initiated in symptomatic 3-week old dy2j/dy2j mice with already-apparent\
+        \ hind limb paralysis and significant muscle fibrosis. Collectively, our data\
+        \ demonstrate the feasibility and therapeutic benefit of CRISPR/dCas9-mediated\
+        \ modulation of a disease modifier gene, which opens up an entirely new and\
+        \ mutation-independent treatment approach for all MDC1A patients. Moreover,\
+        \ this treatment strategy provides evidence that muscle fibrosis can be reversible,\
+        \ thus extending the therapeutic window for this disorder. Our data provide\
+        \ a proof-of-concept strategy that can be applied to a variety of disease\
+        \ modifier genes and a powerful therapeutic approach for various inherited\
+        \ and acquired diseases.\n]]></description>\n<dc:creator>Kemaladewi, D.</dc:creator>\n\
+        <dc:creator>Bassi, P. S.</dc:creator>\n<dc:creator>Lindsay, K.</dc:creator>\n\
+        <dc:creator>Erwood, S.</dc:creator>\n<dc:creator>Hyatt, E.</dc:creator>\n\
+        <dc:creator>Place, K. M.</dc:creator>\n<dc:creator>Marks, R.</dc:creator>\n\
+        <dc:creator>Gawlik, K. I.</dc:creator>\n<dc:creator>Durbeej, M.</dc:creator>\n\
+        <dc:creator>Ivakine, E. A.</dc:creator>\n<dc:creator>Cohn, R. D.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286500</dc:identifier>\n\
+        <dc:title><![CDATA[A mutation-independent approach via transcriptional upregulation\
+        \ of a disease modifier gene rescues muscular dystrophy in vivo.]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287821v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nDirect estimation of mutations in great apes reveals\
+        \ significant recent human slowdown in the yearly mutation rate \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/287821v1?rss=1\n</link>\n<description><![CDATA[\n\
+        The human mutation rate per generation estimated from trio sequencing has\
+        \ revealed an almost linear relationship with the age of the father and the\
+        \ age of the mother. The yearly trio-based mutation rate estimate of ~0.43e-9\
+        \ is markedly lower than prior indirect estimates of ~1e-9 per year from phylogenetic\
+        \ comparisons of the great apes. This suggests either a slowdown over the\
+        \ past 10 million years or an inaccurate interpretation of the fossil record.\
+        \ Here we use sequencing of chimpanzee, gorilla and orangutan trios and find\
+        \ that each species has higher estimated mutation rates per year by factors\
+        \ of 1.67+/- 0.22, 1.54+/- 0.2 and 1.84+/- 0.19, respectively. These estimates\
+        \ suggest a very recent and appreciable slowdown in human mutation rate, and,\
+        \ if extrapolated over the great apes phylogeny, yields divergence estimates\
+        \ much more in line with the fossil record and the biogeography.\n]]></description>\n\
+        <dc:creator>Besenbacher, S.</dc:creator>\n<dc:creator>Hvilsom, C.</dc:creator>\n\
+        <dc:creator>Marques-Bonet, T.</dc:creator>\n<dc:creator>Mailund, T.</dc:creator>\n\
+        <dc:creator>Schierup, M. H.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287821</dc:identifier>\n<dc:title><![CDATA[Direct\
+        \ estimation of mutations in great apes reveals significant recent human slowdown\
+        \ in the yearly mutation rate]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287870v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA taxonomically-restricted Uric Acid transporter provides\
+        \ insight into antioxidant equilibrium \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287870v1?rss=1\n\
+        </link>\n<description><![CDATA[\nNucleobase-Ascorbate Transporter (NAT) family\
+        \ includes ascorbic acid, nucleobases and uric acid transporters, with a broad\
+        \ evolutionary distribution. In vertebrates, four members have been previously\
+        \ recognized, the ascorbate transporters Slc23a1 and Slc3a2, the nucleobase\
+        \ transporter Slc23a4 and an orphan transporter SLC23A3. Here we identify\
+        \ a fifth member of the vertebrate slc23 complement (slc23a5), expressed in\
+        \ neopterygians (gars and teleosts) and amphibians, and clarify the evolutionary\
+        \ relationships between the novel gene and known slc23 genes. Further comparative\
+        \ analysis puts forward uric acid as the preferred substrate for Slc23a5.\
+        \ Gene expression quantification suggests kidney and testis as major expression\
+        \ sites in Xenopus tropicalis (western clawed frog) and Danio rerio (zebrafish).\
+        \ Additional expression in brain was detected in D. rerio, while in the Neoteleostei\
+        \ Oryzias latipes (medaka) slc23a5 expression is restricted to brain. The\
+        \ biological relevance of the retention of an extra transporter in fish and\
+        \ amphibians is examined: with respect to the (1) antioxidant role of uric\
+        \ and ascorbic acid in seminal fluid and brain, (2) the ability to endogenously\
+        \ synthesize ascorbic acid and (3) the morphological adaptations of the male\
+        \ urogenital system.\n]]></description>\n<dc:creator>Oliveira, D.</dc:creator>\n\
+        <dc:creator>Machado, A.</dc:creator>\n<dc:creator>Cardoso, T.</dc:creator>\n\
+        <dc:creator>Lopes-Marques, M.</dc:creator>\n<dc:creator>Castro, L. F.</dc:creator>\n\
+        <dc:creator>Ruivo, R.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287870</dc:identifier>\n\
+        <dc:title><![CDATA[A taxonomically-restricted Uric Acid transporter provides\
+        \ insight into antioxidant equilibrium]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287854v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nAnisotropic Crb accumulation, modulated by Src42A,\
+        \ orients epithelial tube growth in Drosophila \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287854v1?rss=1\n\
+        </link>\n<description><![CDATA[\nSize control of internal tubular organs,\
+        \ such as the lungs or vascular system, is critical for proper physiological\
+        \ activity and to prevent disease or malformations. This control incorporates\
+        \ the intrinsic physical anisotropy of tubes to generate proportionate organs\
+        \ that match their function. The exact mechanisms underlying tube size control\
+        \ and how tubular anisotropy is translated at the cellular level are still\
+        \ not fully understood. Here we investigate these mechanisms using the Drosophila\
+        \ tracheal system. We show that the apical polarity protein Crumbs transiently\
+        \ accumulates anisotropically at longitudinal cell junctions during tube elongation.\
+        \ We provide evidence indicating that the accumulation of Crumbs in specific\
+        \ apical domains correlates with apical surface growth. Hence, we propose\
+        \ that the anisotropic accumulation of Crb at the cellular level promotes\
+        \ a bias towards longitudinal membrane growth, orienting cell elongation and,\
+        \ as a consequence, longitudinal growth at the tissue level. We find that\
+        \ Src42A promotes Crb anisotropic accumulation, thereby identifying the first\
+        \ polarised cell behaviour downstream of Src42A. Our results indicate that\
+        \ Src42A activity favours a higher turnover of Crb protein at longitudinal\
+        \ junctions, possibly through a mechanism regulating protein trafficking and/or\
+        \ recycling. We propose a model where Src42A would sense the inherent anisotropic\
+        \ mechanical tension of the tube and translate it into a polarised Crumbs-mediated\
+        \ membrane growth, orienting longitudinal tube growth. This work provides\
+        \ new insights into the key question of how organ growth is controlled and\
+        \ polarised and unveils the function of two conserved proteins, Crumbs and\
+        \ Src42A, with important roles in development and homeostasis as well as in\
+        \ disease, in this biological process.\n]]></description>\n<dc:creator>Olivares-Castineira,\
+        \ I.</dc:creator>\n<dc:creator>Llimargas, M.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287854</dc:identifier>\n<dc:title><![CDATA[Anisotropic\
+        \ Crb accumulation, modulated by Src42A, orients epithelial tube growth in\
+        \ Drosophila]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-23</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286195v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nRecombinant expression of Proteorhodopsin and biofilm\
+        \ regulators in Escherichia coli for nanoparticle binding and removal in a\
+        \ wastewater treatment model \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286195v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe small size of nanoparticles is both an\
+        \ advantage and a problem. Their high surface-area-to-volume ratio enables\
+        \ novel medical, industrial, and commercial applications. However, their small\
+        \ size also allows them to evade conventional filtration during water treatment,\
+        \ posing health risks to humans, plants, and aquatic life. This project aims\
+        \ to remove nanoparticles during wastewater treatment using genetically modified\
+        \ Escherichia coli in two ways: 1) binding citrate-capped nanoparticles with\
+        \ the membrane protein Proteorhodopsin, and 2) trapping nanoparticles using\
+        \ Escherichia coli biofilm produced by overexpressing two regulators: OmpR234\
+        \ and CsgD. We demonstrate experimentally that Escherichia coli expressing\
+        \ Proteorhodopsin binds to 60 nm citrate-capped silver nanoparticles. We also\
+        \ successfully upregulate biofilm production and show that Escherichia coli\
+        \ biofilms are able to trap 30 nm gold particles. Finally, both Proteorhodopsin\
+        \ and biofilm approaches are able to bind and remove nanoparticles in simulated\
+        \ wastewater treatment tanks. We envision integrating our trapping system\
+        \ in both rural and urban wastewater treatment plants to efficiently capture\
+        \ all nanoparticles before treated water is released into the environment.\n\
+        ]]></description>\n<dc:creator>Yang, J.</dc:creator>\n<dc:creator>Wei, Y.</dc:creator>\n\
+        <dc:creator>Yeh, C.</dc:creator>\n<dc:creator>Liou, F.</dc:creator>\n<dc:creator>Chen,\
+        \ W.</dc:creator>\n<dc:creator>Lu, D.</dc:creator>\n<dc:creator>Chen, C.</dc:creator>\n\
+        <dc:creator>Pei, J.</dc:creator>\n<dc:creator>Lee, C.</dc:creator>\n<dc:creator>Chen,\
+        \ E.</dc:creator>\n<dc:creator>Lin, A.</dc:creator>\n<dc:creator>Imbrogulio,\
+        \ P.</dc:creator>\n<dc:creator>Chang, K.</dc:creator>\n<dc:creator>Hu, A.</dc:creator>\n\
+        <dc:creator>Kao, J.</dc:creator>\n<dc:creator>Chen, K.</dc:creator>\n<dc:creator>Tei,\
+        \ A.</dc:creator>\n<dc:creator>Yang, C.</dc:creator>\n<dc:creator>Hsu, K.</dc:creator>\n\
+        <dc:creator>Hsia, L.</dc:creator>\n<dc:creator>Wallace, O.</dc:creator>\n\
+        <dc:creator>Hau, A.</dc:creator>\n<dc:creator>Liu, A.</dc:creator>\n<dc:creator>Huang,\
+        \ W.</dc:creator>\n<dc:creator>Chang, S.</dc:creator>\n<dc:creator>Chang,\
+        \ C.</dc:creator>\n<dc:creator>Tsai, L.</dc:creator>\n<dc:creator>Wang, A.</dc:creator>\n\
+        <dc:creator>Lee, C.</dc:creator>\n<dc:creator>Wang, A.</dc:creator>\n<dc:creator>Shah,\
+        \ M.</dc:creator>\n<dc:creator>Yim, L.</dc:creator>\n<dc:creator>Tsao, S.</dc:creator>\n\
+        <dc:creator>Chiang, T.</dc:creator>\n<dc:creator>Clapper, J. C.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286195</dc:identifier>\n\
+        <dc:title><![CDATA[Recombinant expression of Proteorhodopsin and biofilm regulators\
+        \ in Escherichia coli for nanoparticle binding and removal in a wastewater\
+        \ treatment model]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286534v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nMore is less: increased processing of unwanted memories\
+        \ facilitates forgetting \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286534v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe intention to forget can produce long-lasting\
+        \ effects. This ability has been linked to suppression of both rehearsal and\
+        \ retrieval of unwanted memories - processes that are mediated by prefrontal\
+        \ cortex and hippocampus. Here, we describe an alternative account of deliberate\
+        \ forgetting in which the intention to forget is associated with increased\
+        \ engagement with the unwanted information. We used pattern classifiers to\
+        \ decode functional magnetic resonance imaging (fMRI) data from a task in\
+        \ which participants viewed a series of pictures and were instructed to remember\
+        \ or forget each one. Pictures followed by a forget instruction elicited higher\
+        \ levels of processing in ventral temporal cortex compared to those followed\
+        \ by a remember instruction. This boost in processing led to more forgetting,\
+        \ particularly for items that showed moderate (vs. weak or strong) activation.\
+        \ This result is consistent with the non-monotonic plasticity hypothesis,\
+        \ which predicts weakening and forgetting of memories that are moderately\
+        \ activated.\n]]></description>\n<dc:creator>Wang, T. H.</dc:creator>\n<dc:creator>Placek,\
+        \ K.</dc:creator>\n<dc:creator>Lewis-Peacock, J. A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/286534</dc:identifier>\n<dc:title><![CDATA[More\
+        \ is less: increased processing of unwanted memories facilitates forgetting]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287722v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nImpact of Sex and APOE Status on Spatial Navigation\
+        \ in Pre-symptomatic Alzheimer\\'s disease \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287722v1?rss=1\n\
+        </link>\n<description><![CDATA[\nINTRODUCTION: Spatial navigation is emerging\
+        \ as a critical factor in identifying pre-symptomatic Alzheimer pathophysiology,\
+        \ with the impact of sex and APOE status on spatial navigation yet to be established.\
+        \ METHODS: We estimate the effects of sex on navigation performance in 27,308\
+        \ individuals (50-70 years [benchmark population]) by employing a novel game-based\
+        \ approach to cognitive assessment using Sea Hero Quest. The effects of APOE\
+        \ genotype and sex on game performance was further examined in a smaller lab-based\
+        \ cohort (n = 44). RESULTS: Benchmark data showed an effect of sex on wayfinding\
+        \ distance, duration and path integration. Importantly in the lab cohort,\
+        \ performance on allocentric wayfinding levels was reduced in {varepsilon}4\
+        \ carriers compared to {varepsilon}3 carriers, and effect of sex became negligible\
+        \ when APOE status was controlled for. To demonstrate the robustness of this\
+        \ effect and to ensure the quality of data obtained through unmonitored at-home\
+        \ use of the Sea Hero Quest game, post-hoc analysis was carried out to compare\
+        \ performance by the benchmark population to the monitored lab-cohort. DISCUSSION:\
+        \ APOE {varepsilon}4 midlife carriers exhibit changes in navigation pattern\
+        \ before any symptom onset. This supports the move towards spatial navigation\
+        \ as an early cognitive marker and demonstrates for the first time how the\
+        \ utility of large-scale digital cognitive assessment may hold future promise\
+        \ for the early detection of Alzheimer's disease. Finally, benchmark findings\
+        \ suggest that gender differences may need to be considered when determining\
+        \ the classification criteria for spatial navigational deficits in midlife\
+        \ adults.\n]]></description>\n<dc:creator>Coughlan, G.</dc:creator>\n<dc:creator>Coutrot,\
+        \ A.</dc:creator>\n<dc:creator>Khondoker, M.</dc:creator>\n<dc:creator>Minihane,\
+        \ A. M.</dc:creator>\n<dc:creator>Spiers, H.</dc:creator>\n<dc:creator>Hornberger,\
+        \ M.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287722</dc:identifier>\n\
+        <dc:title><![CDATA[Impact of Sex and APOE Status on Spatial Navigation in\
+        \ Pre-symptomatic Alzheimer\\'s disease]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287490v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA Polygenic Score for Higher Educational Attainment\
+        \ is Associated with Larger Brains \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287490v1?rss=1\n\
+        </link>\n<description><![CDATA[\nPeople who score higher on intelligence tests\
+        \ tend to have larger brains. Twin studies suggest the same genetic factors\
+        \ influence both brain size and intelligence. This has led to the hypothesis\
+        \ that genetics influence intelligence partly by contributing to development\
+        \ of larger brains. We tested this hypothesis with molecular genetic data\
+        \ using discoveries from a genome-wide association study (GWAS) of educational\
+        \ attainment, a correlate of intelligence. We analyzed genetic, brain imaging,\
+        \ and cognitive test data from the UK Biobank, the Dunedin Study, the Brain\
+        \ Genomics Superstruct Project (GSP), and the Duke Neurogenetics Study (DNS)\
+        \ (combined N=8,271). We measured genetics using polygenic scores based on\
+        \ published GWAS. We conducted meta-analysis to test associations among participants'\
+        \ genetics, total brain volume (i.e., brain size), and cognitive test performance.\
+        \ Consistent with previous findings, participants with higher polygenic scores\
+        \ achieved higher scores on cognitive tests, as did participants with larger\
+        \ brains. Participants with higher polygenic scores also had larger brains.\
+        \ We found some evidence that brain size partly mediated associations between\
+        \ participants' education polygenic scores and their cognitive test performance.\
+        \ Effect-sizes were larger in the population-based UK Biobank and Dunedin\
+        \ samples than in the GSP and DNS samples. Sensitivity analysis suggested\
+        \ this effect-size difference partly reflected restricted range of cognitive\
+        \ performance in the GSP and DNS samples. Recruitment and retention of population-representative\
+        \ samples should be a priority for neuroscience research. Findings suggest\
+        \ promise for studies integrating GWAS discoveries with brain imaging data\
+        \ to understand neurobiology linking genetics with individual differences\
+        \ in cognitive performance.\n]]></description>\n<dc:creator>Elliott, M. L.</dc:creator>\n\
+        <dc:creator>Belsky, D. W.</dc:creator>\n<dc:creator>Anderson, K.</dc:creator>\n\
+        <dc:creator>Corcoran, D. L.</dc:creator>\n<dc:creator>Ge, T.</dc:creator>\n\
+        <dc:creator>Knodt, A.</dc:creator>\n<dc:creator>Prinz, J. A.</dc:creator>\n\
+        <dc:creator>Sugden, K.</dc:creator>\n<dc:creator>Williams, B.</dc:creator>\n\
+        <dc:creator>Ireland, D.</dc:creator>\n<dc:creator>Poulton, R.</dc:creator>\n\
+        <dc:creator>Caspi, A.</dc:creator>\n<dc:creator>Holmes, A.</dc:creator>\n\
+        <dc:creator>Moffitt, T.</dc:creator>\n<dc:creator>Hariri, A. R.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287490</dc:identifier>\n\
+        <dc:title><![CDATA[A Polygenic Score for Higher Educational Attainment is\
+        \ Associated with Larger Brains]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287219v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEnrichment of gene variants associated with treatable\
+        \ genetic disorders in psychiatric populations \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287219v1?rss=1\n\
+        </link>\n<description><![CDATA[\nPurpose: Many genetic conditions can mimic\
+        \ mental health disorders, with psychiatric symptoms that are difficult to\
+        \ treat with standard psychotropic medications. This study tests the hypothesis\
+        \ that psychiatric populations are enriched for pathogenic variants associated\
+        \ with selected treatable genetic disorders. Methods: Using next-generation\
+        \ sequencing, 2046 psychiatric patients were screened for variants in genes\
+        \ associated with four inborn errors of metabolism (IEMs), Niemann-Pick disease\
+        \ type C (NPC), Wilson disease (WD), homocystinuria (HOM), and acute intermittent\
+        \ porphyria (AIP). Results: Among the 2046 cases, carrier rates of 0.83%,\
+        \ 0.98%, 0.20%, and 0.24% for NPC, WD, HOM, and AIP were seen respectively.\
+        \ An enrichment of known and likely pathogenic variants in the genes associated\
+        \ with NPC and AIP was found in the psychiatric cohort, and especially in\
+        \ schizophrenia patients. Conclusion: The results of this study support that\
+        \ rare genetic disease variants, such as those associated with IEMs, may contribute\
+        \ to the pathogenesis of psychiatric disorders. IEMs should be considered\
+        \ as possible causative factors for psychiatric presentations, especially\
+        \ in psychotic disorders, such as schizophrenia, and in the context of poor\
+        \ treatment response.\n]]></description>\n<dc:creator>Sriretnakumar, V.</dc:creator>\n\
+        <dc:creator>Harripaul, R.</dc:creator>\n<dc:creator>Vincent, J. B.</dc:creator>\n\
+        <dc:creator>Kennedy, J. L.</dc:creator>\n<dc:creator>So, J.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287219</dc:identifier>\n\
+        <dc:title><![CDATA[Enrichment of gene variants associated with treatable genetic\
+        \ disorders in psychiatric populations]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287391v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nOn the synchronized failure of global crop production\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287391v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMultiple breadbasket failure is a risk to\
+        \ global food security. However, there are no global analyses that have assessed\
+        \ if global food production has actually tended towards synchronized failure\
+        \ historically. We show that synchronization in production for major commodities\
+        \ such as maize and soy has declined in recent decades, but that increased\
+        \ synchrony, when present, has had marked destabilizing effects. Under the\
+        \ hypothetical case of a synchronized failure event, we estimate simultaneous\
+        \ global production losses for rice, wheat, soy and maize between -18% and\
+        \ -36%. Our results show that maintaining asynchrony in the food system and\
+        \ mitigating instability through food storage in good years, both require\
+        \ a central place in discussions of future food demand under mean climate\
+        \ change, population growth and consumption trends.\n]]></description>\n<dc:creator>Mehrabi,\
+        \ Z.</dc:creator>\n<dc:creator>Ramankutty, N.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287391</dc:identifier>\n<dc:title><![CDATA[On the\
+        \ synchronized failure of global crop production]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287839v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nThe Origins and Consequences of Localized and Global\
+        \ Somatic Hypermutation \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287839v1?rss=1\n\
+        </link>\n<description><![CDATA[\nCancer is a disease of the genome, but the\
+        \ dramatic inter-patient variability in mutation number is poorly understood.\
+        \ Tumours of the same type can differ by orders of magnitude in their mutation\
+        \ rate. To understand potential drivers and consequences of the underlying\
+        \ heterogeneity in mutation rate across tumours, we evaluated both local and\
+        \ global measures of mutation density: both single-stranded and double-stranded\
+        \ DNA breaks in 2,460 tumours of 38 cancer types. We find that SCNAs in thousands\
+        \ of genes are associated with elevated rates of point-mutations, while similarly\
+        \ point-mutation patterns in dozens of genes are associated with specific\
+        \ patterns of DNA double-stranded breaks. These candidate drivers of mutation\
+        \ density are enriched for known cancer drivers, and preferentially occur\
+        \ early in tumour evolution, appearing clonally in all cells of a tumour.\
+        \ To supplement this understanding of global mutation density, we developed\
+        \ and validated a tool called SeqKat to identify localized 'rainstorms' of\
+        \ point-mutations (kataegis). We show that rates of kataegis differ by four\
+        \ orders of magnitude across tumour types, with malignant lymphomas showing\
+        \ the highest. Tumours with TP53 mutations were 2.6-times more likely to harbour\
+        \ a kataegic event than those without, and 239 SCNAs were associated with\
+        \ elevated rates of kataegis, including loss of the tumour-suppressor CDKN2A.\
+        \ We identify novel subtypes of kataegic events not associated with aberrant\
+        \ APOBEC activity, and find that these are localized to specific cellular\
+        \ regions, enriched for MYC-target genes. Kataegic events were associated\
+        \ with patient survival in some, but not all tumour types, highlighting a\
+        \ combination of global and tumour-type specific effects. Taken together,\
+        \ we reveal a landscape of genes driving localized and tumour-specific hyper-mutation,\
+        \ and reveal novel mutational processes at play in specific tumour types.\n\
+        ]]></description>\n<dc:creator>Yousif, F.</dc:creator>\n<dc:creator>Prokopec,\
+        \ S.</dc:creator>\n<dc:creator>Sun, R. X.</dc:creator>\n<dc:creator>Fan, F.</dc:creator>\n\
+        <dc:creator>Lalansingh, C. M.</dc:creator>\n<dc:creator>Park, D. H.</dc:creator>\n\
+        <dc:creator>Szyca, L.</dc:creator>\n<dc:creator>PCAWG Network,</dc:creator>\n\
+        <dc:creator>Boutros, P. C.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287839</dc:identifier>\n\
+        <dc:title><![CDATA[The Origins and Consequences of Localized and Global Somatic\
+        \ Hypermutation]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287813v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEngineered Peptide Barcodes for In-Depth Analyses of\
+        \ Binding Protein Ensembles \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287813v1?rss=1\n\
+        </link>\n<description><![CDATA[\nBinding protein generation relies on laborious\
+        \ screening cascades that process candidate molecules individually. To break\
+        \ with this paradigm, we developed NestLink, a binder selection and identification\
+        \ technology able to biophysically characterize thousands of library members\
+        \ at once without handling individual clones at any stage of the process.\
+        \ NestLink builds on genetically fused barcoding peptides, termed flycodes,\
+        \ which are designed for maximal detectability by mass spectrometry and serve\
+        \ as unique molecular identifiers for accurate deep sequencing. We applied\
+        \ NestLink to overcome current limitations of binder generation. Rare binders\
+        \ against an integral membrane protein were identified directly in the cellular\
+        \ environment of a human pathogen. Hundreds of binder candidates were simultaneously\
+        \ ranked according to kinetic parameters. Adverse effects of target immobilization\
+        \ were overcome by selecting nanobodies against an ABC transporter entirely\
+        \ in solution. NestLink may provide a basis for the selection of tailored\
+        \ binder characteristics directly in tissues or in living organisms.\n]]></description>\n\
+        <dc:creator>Egloff, P.</dc:creator>\n<dc:creator>Zimmermann, I.</dc:creator>\n\
+        <dc:creator>Arnold, F. M.</dc:creator>\n<dc:creator>Hutter, C. A. J.</dc:creator>\n\
+        <dc:creator>Morger, D.</dc:creator>\n<dc:creator>Opitz, L.</dc:creator>\n\
+        <dc:creator>Poveda, L.</dc:creator>\n<dc:creator>Keserue, H.-A.</dc:creator>\n\
+        <dc:creator>Panse, C.</dc:creator>\n<dc:creator>Roschitzki, B.</dc:creator>\n\
+        <dc:creator>Seeger, M.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287813</dc:identifier>\n\
+        <dc:title><![CDATA[Engineered Peptide Barcodes for In-Depth Analyses of Binding\
+        \ Protein Ensembles]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/288019v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nIntracranial interictal functional networks predict\
+        \ the effect of subacute cortical stimulation in focal epilepsy \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/288019v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Background: Electric neurostimulation is being developed as an alternative\
+        \ treatment for drug-resistant epilepsy patients. A major challenge is to\
+        \ identify, among all possible combinations of stimulation parameters, the\
+        \ most effective stimulation protocol to achieve seizure control for each\
+        \ patient. Objective: To estimate the value of interictal intracranial EEG\
+        \ recordings in identifying the most effective stimulation protocol in order\
+        \ to decrease number of seizures during intracranial subacute cortical stimulation\
+        \ (SCS). Methods: Five patients undergoing SCS were included in this retrospective\
+        \ study. Bivariate correlation measures were applied to baseline interictal\
+        \ intracranial EEG recordings to infer functional correlation networks. The\
+        \ node strength of these networks was calculated for each recording electrode\
+        \ (indicating the overall correlation between activity from one electrode\
+        \ with the activity from all other electrodes). The relationship between node\
+        \ strength and the change in seizure rate associated with SCS was studied\
+        \ for the electrodes used for stimulation. Results: Across all five patients,\
+        \ node strength was negatively correlated with seizure rate ratio (ratio of\
+        \ seizure rate during SCS relative to during baseline) for all frequency bands\
+        \ tested (delta, theta, alpha, beta, gamma, and high gamma), and both the\
+        \ common reference and the common average montage. Conclusion: Interictal\
+        \ functional correlation networks contain information that correlates with\
+        \ the effect of SCS on the rate of epileptic seizures, suggesting that stimulation\
+        \ of those regions with higher node strength (derived from correlation networks)\
+        \ is more effective in reducing number of seizures.\n]]></description>\n<dc:creator>Wang,\
+        \ Y.</dc:creator>\n<dc:creator>Taylor, P. N.</dc:creator>\n<dc:creator>Diaz-Diaz,\
+        \ J.</dc:creator>\n<dc:creator>Selway, R. P.</dc:creator>\n<dc:creator>Valentin,\
+        \ A.</dc:creator>\n<dc:creator>Alarcon, G.</dc:creator>\n<dc:creator>Jimenez-Jimenez,\
+        \ D.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/288019</dc:identifier>\n\
+        <dc:title><![CDATA[Intracranial interictal functional networks predict the\
+        \ effect of subacute cortical stimulation in focal epilepsy]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/285494v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA novel time-stamp mechanism transforms egocentric\
+        \ encounters into an allocentric spatial representation \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/285494v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Learning the spatial organization of the environment is essential for most\
+        \ animals' survival. This often requires the animal to derive allocentric\
+        \ information about the environment from egocentric sensory and motor experience.\
+        \ The neural circuits and mechanisms underlying this transformation are currently\
+        \ unknown. We addressed this problem in electric fish, which can precisely\
+        \ navigate in complete darkness and whose requisite brain circuitry is relatively\
+        \ simple. We conducted the first neural recordings in the preglomerular complex,\
+        \ the thalamic region exclusively connecting the optic tectum with the spatial\
+        \ learning circuits in the dorsolateral pallium. While tectal egocentric information\
+        \ was eliminated in preglomerular neurons, the time-intervals between object\
+        \ encounters were precisely encoded. We show that this highly-reliable temporal\
+        \ information, combined with a speed signal, can permit accurate path-integration\
+        \ that then enables computing allocentric spatial relations. Our results suggest\
+        \ that similar mechanisms are involved in spatial learning via sequential\
+        \ encounters in all vertebrates.\n]]></description>\n<dc:creator>Wallach,\
+        \ A.</dc:creator>\n<dc:creator>Harvey-Girard, E.</dc:creator>\n<dc:creator>Jun,\
+        \ J. J.</dc:creator>\n<dc:creator>Longtin, A.</dc:creator>\n<dc:creator>Maler,\
+        \ L.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/285494</dc:identifier>\n\
+        <dc:title><![CDATA[A novel time-stamp mechanism transforms egocentric encounters\
+        \ into an allocentric spatial representation]]></dc:title>\n<dc:publisher>Cold\
+        \ Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/288027v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nModel-based Pavlovian control of attention to threat.\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/288027v1?rss=1\n\
+        </link>\n<description><![CDATA[\nSignals for reward or punishment attract\
+        \ attention preferentially, a principle termed value-modulated attention capture\
+        \ (VMAC). The mechanisms that govern the allocation of attention resources\
+        \ can be productively described with a terminology that is more often applied\
+        \ to the control of overt behaviours, namely, the distinction between instrumental\
+        \ and Pavlovian control, and between model-free and model-based control. While\
+        \ instrumental control of VMAC can be either model-free or model-based, it\
+        \ is not known whether Pavlovian control of VMAC can be model-based. To decide\
+        \ whether this is possible we measured Steady-State Visual Evoked Potentials\
+        \ (SSVEPs) while 20 healthy adults took part in a novel task. During the learning\
+        \ stage participants underwent aversive threat conditioning with two CSs,\
+        \ one that predicted pain (CS+) and one that predicted safety (CS-). Instructions\
+        \ given prior to the test stage in the task allowed participants to infer\
+        \ whether novel, ambiguous CSs (new CS+/ new CS-) were threatening or safe.\
+        \ Correct inference required combining stored internal representations and\
+        \ new propositional information, the hallmark of model-based control. SSVEP\
+        \ amplitudes quantified the amount of attention allocated to novel CSs on\
+        \ their very first presentation, before they were ever reinforced. We found\
+        \ that SSVEPs were higher for new CS+ than new CS-. Because task design precluded\
+        \ model-free or instrumental control this result demonstrates a model-based\
+        \ Pavlovian control of VMAC. It confirms, in the domain of internal resource\
+        \ allocation, the model-based Pavlovian control of incentive behaviour and\
+        \ underlines the potential transformative role of information as an emotion\
+        \ regulation technique.\n]]></description>\n<dc:creator>Talmi, D.</dc:creator>\n\
+        <dc:creator>Slapkova, M.</dc:creator>\n<dc:creator>Wieser, M. J.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/288027</dc:identifier>\n\
+        <dc:title><![CDATA[Model-based Pavlovian control of attention to threat.]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287540v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nDynamic functional connectivity markers of objective\
+        \ trait mindfulness \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287540v1?rss=1\n\
+        </link>\n<description><![CDATA[\nWhile mindfulness is commonly viewed as a\
+        \ skill to be cultivated through practice, untrained individuals can also\
+        \ vary widely in dispositional mindfulness. Prior research has identified\
+        \ static neural connectivity correlates of this trait. Here, we use dynamic\
+        \ functional connectivity (DFC) analysis of resting-state fMRI to study time-varying\
+        \ connectivity patterns associated with naturally varying and objectively\
+        \ measured trait mindfulness. Participants were selected from the top and\
+        \ bottom tertiles of performers on a breath-counting task to form high trait\
+        \ mindfulness (HTM; N = 21) and low trait mindfulness (LTM; N = 18) groups.\
+        \ DFC analysis of resting state fMRI data revealed that the HTM group spent\
+        \ significantly more time in a brain state associated with task-readiness\
+        \ - a state characterized by high within-network connectivity and greater\
+        \ anti-correlations between task-positive networks and the default-mode network\
+        \ (DMN). The HTM group transitioned between brain states more frequently,\
+        \ but the dwell time in each episode of the task-ready state was equivalent\
+        \ between groups. These results persisted even after controlling for vigilance.\
+        \ Across individuals, certain connectivity metrics were weakly correlated\
+        \ with self-reported mindfulness as measured by the Five Facet Mindfulness\
+        \ Questionnaire, though these did not survive multiple comparisons correction.\
+        \ In the static connectivity maps, HTM individuals had greater within-network\
+        \ connectivity in the DMN and the salience network, and greater anti-correlations\
+        \ between the DMN and task-positive networks. In sum, DFC features robustly\
+        \ distinguish HTM and LTM individuals, and may be useful biological markers\
+        \ for the measurement of dispositional mindfulness.\n]]></description>\n<dc:creator>Lim,\
+        \ J.</dc:creator>\n<dc:creator>Teng, J.</dc:creator>\n<dc:creator>Patanaik,\
+        \ A.</dc:creator>\n<dc:creator>Tandi, J.</dc:creator>\n<dc:creator>Massar,\
+        \ S.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287540</dc:identifier>\n\
+        <dc:title><![CDATA[Dynamic functional connectivity markers of objective trait\
+        \ mindfulness]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-23</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287136v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nPolygenic risk score for schizophrenia is more strongly\
+        \ associated with ancestry than with schizophrenia \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/287136v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Background The polygenic risk score (PRS) for schizophrenia, derived from\
+        \ very large numbers of weakly associated genetic markers, has been repeatedly\
+        \ shown to be robustly associated with schizophrenia in independent samples\
+        \ and also with other diseases and traits. Aims To explore the distribution\
+        \ of the schizophrenia PRS in subjects of different ancestry. Method The schizophrenia\
+        \ PRS derived from the large genome-wide association study carried out by\
+        \ the Psychiatric Genetics Consortium was calculated using the downloaded\
+        \ genotypes of HapMap subjects from eleven different ancestral groups. It\
+        \ was also calculated using downloaded genotypes of European schizophrenia\
+        \ cases and controls from the CommonMind Consortium. Results The PRS for schizophrenia\
+        \ varied significantly between ancestral groups (p < 2*10-16) and was much\
+        \ higher in African than European HapMap subjects. The mean difference between\
+        \ these groups was ten times as high as the mean difference between European\
+        \ schizophrenia cases and controls. The distributions of scores for African\
+        \ and European subjects hardly overlapped. Conclusions The PRS cannot be regarded\
+        \ as simply a measure of the polygenic contribution to risk of schizophrenia\
+        \ and clearly contains a strong ancestry component. It is possible that this\
+        \ could be controlled for to some extent by incorporating principal components\
+        \ as covariates but doubts remain as to how it should be interpreted. The\
+        \ PRS derived from European subjects cannot be applied to non-Europeans, limiting\
+        \ its potential usefulness and raising issues of inequity. Previous studies\
+        \ which have used the PRS should be re-examined in the light of these findings.\n\
+        ]]></description>\n<dc:creator>Curtis, D.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287136</dc:identifier>\n<dc:title><![CDATA[Polygenic\
+        \ risk score for schizophrenia is more strongly associated with ancestry than\
+        \ with schizophrenia]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286617v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nLow frequency and rare coding variation contributes\
+        \ to multiple sclerosis risk \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286617v1?rss=1\n\
+        </link>\n<description><![CDATA[\nMultiple sclerosis is a common, complex neurological\
+        \ disease, where almost 20% of risk heritability can be attributed to common\
+        \ genetic variants, including >230 identified by genome-wide association studies\
+        \ (Patsopoulos et al., 2017). Multiple strands of evidence suggest that the\
+        \ majority of the remaining heritability is also due to the additive effects\
+        \ of individual variants, rather than epistatic interactions between these\
+        \ variants, or mutations exclusive to individual families. Here, we show in\
+        \ 68,379 cases and controls that as much as 5% of this heritability is explained\
+        \ by low-frequency variation in gene coding sequence. We identify four novel\
+        \ genes driving MS risk independently of common variant signals, which highlight\
+        \ a key role for regulatory T cell homeostasis and regulation, IFN{gamma}\
+        \ biology and NF{kappa}B signaling in MS pathogenesis. As low-frequency variants\
+        \ do not show substantial linkage disequilibrium with other variants, and\
+        \ as coding variants are more interpretable and experimentally tractable than\
+        \ non-coding variation, our discoveries constitute a rich resource for dissecting\
+        \ the pathobiology of MS.\n]]></description>\n<dc:creator>International Multiple\
+        \ Sclerosis Genetics Consortium,</dc:creator>\n<dc:creator>Mitrovic, M.</dc:creator>\n\
+        <dc:creator>Patsopoulos, N.</dc:creator>\n<dc:creator>Beecham, A.</dc:creator>\n\
+        <dc:creator>Dankowski, T.</dc:creator>\n<dc:creator>Goris, A.</dc:creator>\n\
+        <dc:creator>Dubois, B.</dc:creator>\n<dc:creator>Dhooghe, M.-B.</dc:creator>\n\
+        <dc:creator>Lemmens, R.</dc:creator>\n<dc:creator>Van Damme, P.</dc:creator>\n\
+        <dc:creator>Fitzgerald, K.</dc:creator>\n<dc:creator>Bach Sondergaard, H.</dc:creator>\n\
+        <dc:creator>Sellebjerg, F.</dc:creator>\n<dc:creator>Sorensen, P. S.</dc:creator>\n\
+        <dc:creator>Ullum, H.</dc:creator>\n<dc:creator>Wegner Thoerner, L.</dc:creator>\n\
+        <dc:creator>Werge, T.</dc:creator>\n<dc:creator>Saarela, J.</dc:creator>\n\
+        <dc:creator>Cournu-Rebeix, I.</dc:creator>\n<dc:creator>Damotte, V.</dc:creator>\n\
+        <dc:creator>Fontaine, B.</dc:creator>\n<dc:creator>Guillot-Noel, L.</dc:creator>\n\
+        <dc:creator>Lathrop, M.</dc:creator>\n<dc:creator>Vukusik, S.</dc:creator>\n\
+        <dc:creator>Gourraud, P.-A.</dc:creator>\n<dc:creator>Andlauer, T.</dc:creator>\n\
+        <dc:creator>Pongratz, V.</dc:creator>\n<dc:creator>Buck, D.</dc:creator>\n\
+        <dc:creator>Gasperi, C.</dc:creator>\n<dc:creator>Graetz, C.</dc:creator>\n\
+        <dc:creator>Bayas, A.</dc:creator>\n<dc:creator>Heesen, C.</dc:creator>\n\
+        <dc:creator>Kumpfel, T.</dc:creator>\n<dc:creator>Linker, R.</dc:creator>\n\
+        <dc:creator>Paul, F.</dc:creator>\n<dc:creator>Stangel, M.</dc:creator>\n\
+        <dc:creator>Tackenberg, B.</dc:creator>\n<dc:creator>Then Bergh, F.</dc:creator>\n\
+        <dc:creator>Warnke, C.</dc:creator>\n<dc:creator>Wiend</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/286617</dc:identifier>\n<dc:title><![CDATA[Low\
+        \ frequency and rare coding variation contributes to multiple sclerosis risk]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287664v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEvolution favors aging in populations with assortative\
+        \ mating and strong pathogen pressure \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287664v1?rss=1\n\
+        </link>\n<description><![CDATA[\nSince at first sight aging seems to be omnipresent,\
+        \ many authors to this very day regard it as an inevitable consequence of\
+        \ the laws of physics. However, studies published in the past two decades\
+        \ have conclusively shown that a number of organisms do not age, or at least\
+        \ do not age on a scale comparable with other aging organisms. This disparity\
+        \ leads us to question why aging evolved in some organisms and not in others.\
+        \ We thus present a mathematical model which simulates evolution in a sexually\
+        \ reproducing population composed of aging and non-aging individuals. We have\
+        \ observed that aging individuals may outcompete non-aging individuals if\
+        \ they have a higher starting fertility or if the main mating pattern in the\
+        \ population is assortative mating. Furthermore, stronger pathogen pressure\
+        \ was found to help the aging phenotype when compared to the non-aging phenotype.\
+        \ Last but not least, the aging phenotype was found to more easily outcompete\
+        \ the non-aging one or to resist the dominance of the latter for a longer\
+        \ period of time in populations composed of dimorphic sexually reproducing\
+        \ individuals compared to populations of hermaphrodites. Our findings are\
+        \ consistent with both classical evolutionary theories of aging and with evolutionary\
+        \ theories of aging which assume the existence of an aging program. They can\
+        \ thus potentially work as a bridge between these two opposing views, suggesting\
+        \ that the truth in fact lies somewhere in between.\n]]></description>\n<dc:creator>Lenart,\
+        \ P.</dc:creator>\n<dc:creator>Bienertova-Vasku, J.</dc:creator>\n<dc:creator>Berec,\
+        \ L.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287664</dc:identifier>\n\
+        <dc:title><![CDATA[Evolution favors aging in populations with assortative\
+        \ mating and strong pathogen pressure]]></dc:title>\n<dc:publisher>Cold Spring\
+        \ Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287482v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nReproductive interference hampers species coexistence\
+        \ despite conspecific sperm precedence \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287482v1?rss=1\n\
+        </link>\n<description><![CDATA[\nNegative interspecific mating interactions,\
+        \ known as reproductive interference, can hamper species coexistence in a\
+        \ local patch and promote niche partitioning or geographical segregation of\
+        \ closely related species. Conspecific sperm precedence (CSP), which occurs\
+        \ when females that have mated with both conspecific and heterospecific males\
+        \ preferentially use conspecific sperm for fertilization, might contribute\
+        \ to species coexistence by mitigating the costs of interspecific mating and\
+        \ hybridization. We examined whether two closely related species exhibiting\
+        \ CSP can coexist in a local environment in the presence of reproductive interference.\
+        \ First, using a behaviourally explicit mathematical model, we demonstrated\
+        \ that two species characterized by negative mating interactions are unlikely\
+        \ to coexist because the costs of reproductive interference, such as loss\
+        \ of mating opportunity with conspecific partners, are inevitably incurred\
+        \ when individuals of both species are present. Second, we experimentally\
+        \ demonstrated differences in mating activity and preference in two Harmonia\
+        \ ladybird species known to exhibit CSP. According to the developed mathematical\
+        \ model of reproductive interference, these behavioural differences should\
+        \ lead to local extinction of H. yedoensis because of reproductive interference\
+        \ by H. axyridis. This prediction is consistent with field observations that\
+        \ H. axyridis uses various food sources and habitats whereas H. yedoensis\
+        \ is confined to a less preferred prey item and a pine tree habitat. Finally,\
+        \ by a comparative approach, we showed that niche partitioning or parapatric\
+        \ distribution, but not sympatric coexistence in the same habitat, is maintained\
+        \ between species with CSP belonging to a wide range of taxa, including vertebrates\
+        \ and invertebrates living in aquatic or terrestrial environments. Taken together,\
+        \ these results lead us to conclude that reproductive interference generally\
+        \ destabilizes local coexistence even in closely related species that exhibit\
+        \ CSP.\n]]></description>\n<dc:creator>Iritani, R.</dc:creator>\n<dc:creator>Noriyuki,\
+        \ S.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287482</dc:identifier>\n\
+        <dc:title><![CDATA[Reproductive interference hampers species coexistence despite\
+        \ conspecific sperm precedence]]></dc:title>\n<dc:publisher>Cold Spring Harbor\
+        \ Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/286740v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nSISS-Geo: Leveraging Citizen Science to Monitor Wildlife\
+        \ Health Risks in Brazil \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/286740v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe well-being of wildlife health involves\
+        \ many challenges, such as monitoring the movement of pathogens; expanding\
+        \ health surveillance beyond humans; collecting data and extracting information\
+        \ to identify and predict risks; integrating specialists from different areas\
+        \ to handle data, species and distinct social and environmental contexts;\
+        \ and, the commitment to bringing relevant information to society. In Brazil,\
+        \ there is still the difficulty of building a mechanism that is not impaired\
+        \ by its large territorial extension and its poorly integrated sectoral policies.\
+        \ The Brazilian Wildlife Health Information System, SISS-Geo, is a platform\
+        \ for collaborative monitoring that intends to overcome the challenges in\
+        \ wildlife health. It aims integration and participation of various segments\
+        \ of society, encompassing: the registration of occurrences by citizen scientists;\
+        \ the reliable diagnosis of pathogens from the laboratory and expert networks;\
+        \ and computational and mathematical challenges in analytical and predictive\
+        \ systems, knowledge extraction, data integration and visualization, and geographic\
+        \ information systems. It has been successfully applied to support decision-making\
+        \ on recent wildlife health events, such as a Yellow Fever epizooty.\n]]></description>\n\
+        <dc:creator>Chame, M.</dc:creator>\n<dc:creator>Barbosa, H. J. C.</dc:creator>\n\
+        <dc:creator>Gadelha, L. M. R.</dc:creator>\n<dc:creator>Augusto, D. A.</dc:creator>\n\
+        <dc:creator>Krempser, E.</dc:creator>\n<dc:creator>Abdalla, L.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/286740</dc:identifier>\n\
+        <dc:title><![CDATA[SISS-Geo: Leveraging Citizen Science to Monitor Wildlife\
+        \ Health Risks in Brazil]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287441v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nWhen to care and when to kill: termites shape their\
+        \ collective response based on stage of infection \n]]>\n</title>\n<link>\n\
+        http://biorxiv.org/cgi/content/short/287441v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Termites defend their colonies from disease using an array of social behaviours,\
+        \ including allogrooming, cannibalism, and burial. We tested how groups of\
+        \ eastern subterranean termites (Reticulitermes flavipes) deploy these behaviours\
+        \ when presented with a nestmate at different stages of infection with the\
+        \ entomopathogenic fungus Metarhizium anisopliae. As expected, the termites\
+        \ groomed pathogen-exposed individuals significantly more than mock-treated\
+        \ controls; however, grooming levels were significantly higher after spore\
+        \ germination than before. Cannibalism became prevalent only after exposed\
+        \ termites became visibly ill, and burial was rarely observed. These results\
+        \ demonstrate that termites employ different strategies depending on the stage\
+        \ of infection that they encounter. Grooming intensity is linked not only\
+        \ to pathogen presence, but also to germination status, and, given the temporal\
+        \ correlation between cannibalism and visible signs of illness, the host may\
+        \ play a role in triggering its own sacrifice.\n]]></description>\n<dc:creator>Davis,\
+        \ H. E.</dc:creator>\n<dc:creator>Meconcelli, S.</dc:creator>\n<dc:creator>Radek,\
+        \ R.</dc:creator>\n<dc:creator>McMahon, D. P.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n\
+        <dc:identifier>doi:10.1101/287441</dc:identifier>\n<dc:title><![CDATA[When\
+        \ to care and when to kill: termites shape their collective response based\
+        \ on stage of infection]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287920v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nGlycosylation-dependent modulation of the lL-2 signaling\
+        \ axis determines Th17 differentiation and IL-10 production \n]]>\n</title>\n\
+        <link>\nhttp://biorxiv.org/cgi/content/short/287920v1?rss=1\n</link>\n<description><![CDATA[\n\
+        Metabolism plays an essential role in shaping T helper (Th) cell responses\
+        \ including the production of pro-inflammatory cytokines, however the effects\
+        \ on IL-10 have not been investigated. We show that the glucose analogue 2-deoxyglucose\
+        \ (2DG) specifically inhibits Th1 and Th2 cell differentiation and accompanying\
+        \ IL-10 production. In contrast, 2DG promotes IL-17A production by Th17 cells,\
+        \ even in the presence of IL-2 known to limit Th17 differentiation, whilst\
+        \ totally abrogating the production of IL-10. Notably, rather than inhibiting\
+        \ glycolysis, 2DG acts through the inhibition of glycosylation, which is critical\
+        \ for IL-2R surface expression and downstream signaling in both mouse and\
+        \ man. Strikingly, IL-2 is essential for IL-10 production by Th17 cells, in\
+        \ contrast to its inhibitory effect on the production of IL-17A. Our study\
+        \ reveals a previously unappreciated, anti-inflammatory role for IL-2 in Th17\
+        \ cell production of IL-10 and thus identifies a novel mechanism to limit\
+        \ Th17 pathogenicity.\n]]></description>\n<dc:creator>Gabrysova, L.</dc:creator>\n\
+        <dc:creator>Mann, E. H.</dc:creator>\n<dc:creator>Bradley, L.</dc:creator>\n\
+        <dc:creator>MacRae, J. I.</dc:creator>\n<dc:creator>Whicher, C.</dc:creator>\n\
+        <dc:creator>Hawrylowicz, C. M.</dc:creator>\n<dc:creator>Anastasiou, D.</dc:creator>\n\
+        <dc:creator>O\\'Garra, A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287920</dc:identifier>\n\
+        <dc:title><![CDATA[Glycosylation-dependent modulation of the lL-2 signaling\
+        \ axis determines Th17 differentiation and IL-10 production]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287789v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nAutoreactive T cells preferentially drive differentiation\
+        \ of non-responsive memory B cells at the expense of germinal center maintenance.\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287789v1?rss=1\n\
+        </link>\n<description><![CDATA[\nB cell fate decisions within a germinal center\
+        \ (GC) are critical to determining the outcome of the immune response to a\
+        \ given antigen. Here, we characterize GC kinetics and B cell fate choices\
+        \ in a response to the autoantigen myelin oligodendrocyte glycoprotein (MOG),\
+        \ and compare them the response to a standard model foreign antigen (NP-haptenated\
+        \ ovalbumin, NPOVA). Both antigens generated productive primary responses,\
+        \ as evidenced by GC development, circulating antigen-specific antibodies,\
+        \ and differentiation of memory B cells. However, in the MOG response the\
+        \ status of the cognate T cell partner drove preferential B cell differentiation\
+        \ to a memory phenotype at the expense of GC maintenance, resulting in a truncated\
+        \ GC. Reduced plasma cell differentiation was largely independent of T cell\
+        \ influence. Interestingly, memory B cells formed in the MOG GC were unresponsive\
+        \ to secondary challenge and this could not be overcome with T cell help.\n\
+        ]]></description>\n<dc:creator>Jain, R. W.</dc:creator>\n<dc:creator>Parham,\
+        \ K. A.</dc:creator>\n<dc:creator>Tesfagiorgis, Y.</dc:creator>\n<dc:creator>Craig,\
+        \ H. C.</dc:creator>\n<dc:creator>Romanchik, E.</dc:creator>\n<dc:creator>Kerfoot,\
+        \ S. M.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287789</dc:identifier>\n\
+        <dc:title><![CDATA[Autoreactive T cells preferentially drive differentiation\
+        \ of non-responsive memory B cells at the expense of germinal center maintenance.]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287987v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nA polygenic p factor for major psychiatric disorders\
+        \ \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287987v1?rss=1\n\
+        </link>\n<description><![CDATA[\nIt has recently been proposed that a single\
+        \ dimension, called the p factor, can capture a person's liability to mental\
+        \ disorder. Relevant to the p hypothesis, recent genetic research has found\
+        \ surprisingly high genetic correlations between pairs of psychiatric disorders.\
+        \ Here, for the first time we compare genetic correlations from different\
+        \ methods and examine their support for a genetic p factor. We tested the\
+        \ hypothesis of a genetic p factor by using principal component analysis on\
+        \ matrices of genetic correlations between major psychiatric disorders estimated\
+        \ by three methods - family study, Genome-wide Complex Trait Analysis, and\
+        \ Linkage-Disequilibrium Score Regression - and on a matrix of polygenic score\
+        \ correlations constructed for each individual in a UK-representative sample\
+        \ of 7,026 unrelated individuals. All disorders loaded on a first unrotated\
+        \ principal component, which accounted for 57%, 43%, 34% and 19% of the variance\
+        \ respectively for each method. Our results showed that all four methods provided\
+        \ strong support for a genetic p factor that represents the pinnacle of the\
+        \ hierarchical genetic architecture of psychopathology.\n]]></description>\n\
+        <dc:creator>Selzam, S.</dc:creator>\n<dc:creator>Coleman, J. R. I.</dc:creator>\n\
+        <dc:creator>Moffitt, T. E.</dc:creator>\n<dc:creator>Caspi, A.</dc:creator>\n\
+        <dc:creator>Plomin, R.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287987</dc:identifier>\n\
+        <dc:title><![CDATA[A polygenic p factor for major psychiatric disorders]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287706v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nAn unexpected contribution of lincRNA splicing to enhancer\
+        \ function. \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287706v1?rss=1\n\
+        </link>\n<description><![CDATA[\nTranscription is common at active mammalian\
+        \ enhancers sometimes giving rise to stable and unidirectionally transcribed\
+        \ enhancer-associated long intergenic noncoding RNAs (elincRNAs). ElincRNA\
+        \ expression is associated with changes in neighboring gene product abundance\
+        \ and local chromosome topology, suggesting that transcription at these loci\
+        \ contributes to gene expression regulation in cis. Despite the lack of evidence\
+        \ supporting sequence-dependent functions for most elincRNAs, splicing of\
+        \ these transcripts is unexpectedly common. Whether elincRNA splicing is a\
+        \ mere consequence of their cognate enhancer activity or if it directly impacts\
+        \ enhancer-associated cis-regulation remains unanswered. Here we show that\
+        \ elincRNAs are efficiently and rapidly spliced and that their processing\
+        \ rate is strongly associated with their cognate enhancer activity. This association\
+        \ is supported by: their enrichment in enhancer-specific chromatin signatures;\
+        \ elevated binding of co-transcriptional regulators, including CBP and p300;\
+        \ increased local intra-chromosomal DNA contacts; and strengthened cis-regulation\
+        \ on target gene expression. Using nucleotide polymorphisms at human elincRNA\
+        \ splice sites, we found that elincRNA splicing enhances their transcription\
+        \ and directly impacts cis-regulatory function of their cognate enhancers.\
+        \ Importantly, up to 90% of human elincRNAs have nucleotide variants that\
+        \ are associated with both their splicing and the expression levels of their\
+        \ proximal genes. Our results highlight the unexpected contribution of elincRNA\
+        \ splicing to enhancer function.\n]]></description>\n<dc:creator>Tan, J. Y.</dc:creator>\n\
+        <dc:creator>Biasini, A.</dc:creator>\n<dc:creator>Young, R. S.</dc:creator>\n\
+        <dc:creator>Marques, A.</dc:creator>\n<dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287706</dc:identifier>\n\
+        <dc:title><![CDATA[An unexpected contribution of lincRNA splicing to enhancer\
+        \ function.]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n\
+        <prism:publicationDate>2018-03-23</prism:publicationDate>\n<prism:section></prism:section>\n\
+        </item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287268v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nEfficiently inferring the demographic history of many\
+        \ populations with allele count data \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287268v1?rss=1\n\
+        </link>\n<description><![CDATA[\nThe sample frequency spectrum (SFS), or histogram\
+        \ of allele counts, is an important summary statistic in evolutionary biology,\
+        \ and is often used to infer the history of population size changes, migrations,\
+        \ and other demographic events affecting a set of populations. The expected\
+        \ multipopulation SFS under a given demographic model can be efficiently computed\
+        \ when the populations in the model are related by a tree, scaling to hundreds\
+        \ of populations. Admixture, back-migration, and introgression are common\
+        \ natural processes that violate the assumption of a tree-like population\
+        \ history, however, and until now the expected SFS could be computed for only\
+        \ a handful of populations when the demographic history is not a tree. In\
+        \ this article, we present a new method for efficiently computing the expected\
+        \ SFS and linear functionals of it, for demographies described by general\
+        \ directed acyclic graphs. This method can scale to more populations than\
+        \ previously possible for complex demographic histories including admixture.\
+        \ We apply our method to an 8-population SFS to estimate the timing and strength\
+        \ of a proposed \"basal Eurasian\" admixture event in human history. We implement\
+        \ and release our method in a new open-source software package momi2.\n]]></description>\n\
+        <dc:creator>Kamm, J. A.</dc:creator>\n<dc:creator>Terhorst, J.</dc:creator>\n\
+        <dc:creator>Durbin, R.</dc:creator>\n<dc:creator>Song, Y. S.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287268</dc:identifier>\n\
+        <dc:title><![CDATA[Efficiently inferring the demographic history of many populations\
+        \ with allele count data]]></dc:title>\n<dc:publisher>Cold Spring Harbor Laboratory\
+        \ Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n<item rdf:about=\"http://biorxiv.org/cgi/content/short/287755v1?rss=1\"\
+        >\n<title>\n<![CDATA[\nNach is a novel ancestral subfamily of the CNC-bZIP\
+        \ transcription factors selected during evolution from the marine bacteria\
+        \ to human \n]]>\n</title>\n<link>\nhttp://biorxiv.org/cgi/content/short/287755v1?rss=1\n\
+        </link>\n<description><![CDATA[\nAll living organisms have undergone the evolutionary\
+        \ selection under the changing natural environments to survive as diverse\
+        \ life forms. All life processes including normal homeostatic development\
+        \ and growth into organismic bodies with distinct cellular identifications,\
+        \ as well as their adaptive responses to various intracellular and environmental\
+        \ stresses, are tightly controlled by signaling of transcriptional networks\
+        \ towards regulation of cognate genes by many different transcription factors.\
+        \ Amongst them, one of the most conserved is the basic-region leucine zipper\
+        \ (bZIP) family. They play vital roles essential for cell proliferation, differentiation\
+        \ and maintenance in complex multicellular organisms. Notably, an unresolved\
+        \ divergence on the evolution of bZIP proteins is addressed here. By a combination\
+        \ of bioinformatics with genomics and molecular biology, we have demonstrated\
+        \ that two of the most ancestral family members classified into BATF and Jun\
+        \ subgroups are originated from viruses, albeit expansion and diversification\
+        \ of the bZIP superfamily occur in different vertebrates. Interestingly, a\
+        \ specific ancestral subfamily of bZIP proteins is identified and also designated\
+        \ Nach (Nrf and CNC homology) on account of their highly conservativity with\
+        \ NF-E2 p45 subunit-related factors Nrf1/2. Further experimental evidence\
+        \ reveals that Nach1/2 from the marine bacteria exerts distinctive functions\
+        \ from Nrf1/2 in the transcriptional ability to regulate antioxidant response\
+        \ element (ARE)-driven cytoprotective genes. Collectively, an insight into\
+        \ Nach/CNC-bZIP proteins provides a better understanding of distinct biological\
+        \ functions between these factors selected during evolution from the marine\
+        \ bacteria to human.\n]]></description>\n<dc:creator>Zhu, Y.</dc:creator>\n\
+        <dc:creator>Wang, M.</dc:creator>\n<dc:creator>Xiang, Y.</dc:creator>\n<dc:creator>Qiu,\
+        \ L.</dc:creator>\n<dc:creator>Hu, S.</dc:creator>\n<dc:creator>Zhang, Z.</dc:creator>\n\
+        <dc:creator>Mattjus, P.</dc:creator>\n<dc:creator>Zhang, Y.</dc:creator>\n\
+        <dc:date>2018-03-23</dc:date>\n<dc:identifier>doi:10.1101/287755</dc:identifier>\n\
+        <dc:title><![CDATA[Nach is a novel ancestral subfamily of the CNC-bZIP transcription\
+        \ factors selected during evolution from the marine bacteria to human]]></dc:title>\n\
+        <dc:publisher>Cold Spring Harbor Laboratory Press</dc:publisher>\n<prism:publicationDate>2018-03-23</prism:publicationDate>\n\
+        <prism:section></prism:section>\n</item>\n \r\n\r\n\r\n\r\n</rdf:RDF>\r\n"}
+    headers:
+      connection: [Keep-Alive]
+      content-type: [application/xml;")]
+      date: ['Fri, 23 Mar 2018 21:11:34 GMT']
+      keep-alive: ['timeout=30, max=3000']
+      server: [Apache/2.2.15 (Red Hat)]
+      x-powered-by: [PHP/5.4.40]
+    status: {code: 200, message: OK}
+version: 1
