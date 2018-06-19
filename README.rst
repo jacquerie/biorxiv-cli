@@ -41,7 +41,7 @@ Currently ``bioRxiv-CLI`` implements one subcommand:
 This will print the titles of the 30 most recent posts in one of the
 comma-separated subjects. For example:
 
-.. image:: images/biorxiv-cli-screen.png
+.. image:: https://raw.githubusercontent.com/jacquerie/biorxiv-cli/master/images/biorxiv-cli-screen.png
 
 If no subjects were given, it will assume by default that all subjects
 were selected.
