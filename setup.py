@@ -7,7 +7,7 @@ from __future__ import absolute_import, division, print_function
 from setuptools import find_packages, setup
 
 
-url = 'https://github.com/jacquerie/arxiv-cli'
+url = 'https://github.com/jacquerie/biorxiv-cli'
 
 readme = open('README.rst').read()
 
