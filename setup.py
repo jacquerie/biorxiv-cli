@@ -16,7 +16,6 @@ setup_requires = [
 install_requires = [
     'click~=6.0,>=6.7',
     'feedparser>=6.0.8',
-    #    'feedparser~=5.0,>=5.2.1',
     'requests~=2.0,>=2.18.4',
     'six~=1.0,>=1.11.0',
 ]
